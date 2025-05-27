@@ -39,6 +39,7 @@ Thank you! Your stars🌟 and recommendations are what make this community vibra
 ## Table of Contents
 - [📚 Open Prompts](#open-gpts-prompts)
 - [🌟 GPTs](#other-gpts)
+- [💡 Official Agent Building & Prompt Engineering Guides](#official-agent-building--prompt-engineering-guides)
 - [🌎 Prompts From Community](#excellent-prompts-from-community)
 - [🔮 Prompt Engineering Tutor](#prompt-engineering-tutor)
 - [👊 Prompt Attack and Prompt Protect](#prompt-attack-and-prompt-protect)
@@ -92,6 +93,25 @@ Opening GPT editing one by one is quite cumbersome, so I only released the GPT p
 | ⛩ I Ching divination (Chinese) | Occultism | Today's fortune ✨， Auspicious and inauspicious predictions 🔮， Or marriage 💍、 career 🏆、 Destiny detection 🌈， Provide unique insights and guidance. Based on the 64 hexagrams of the Book of Changes.  | [I Ching divination Link](https://chat.openai.com/g/g-5LnUkgxKa-yi-jing-suan-ming)  |
 
 Please let me know if you need any further assistance!
+
+
+## Official Agent Building & Prompt Engineering Guides
+
+Here's a collection of official guides and resources focused on building or utilizing AI Agents, along with essential prompt engineering guides from OpenAI, Anthropic, Google, and DeepSeek.
+
+| Company           | Guide/Resource Name                                                                                       | Type                                            | Link                                                                                                                                                    |
+| :---------------- | :-------------------------------------------------------------------------------------------------------- | :---------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 🔹 **OpenAI**     | GPT-4.1 Prompting Guide                                                                                   | Prompting Guide (Webpage)                       | [OpenAI Cookbook](https://cookbook.openai.com/examples/gpt4-1_prompting_guide)                                                                          |
+|                   | Best Practices for Prompt Engineering                                                                     | Prompting Best Practices (Webpage)              | [OpenAI Help Center](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-the-openai-api)                               |
+|                   | A Practical Guide to Building Agents                                                                      | Agent Building Guide (PDF)                      | [PDF Download](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf)                                         |
+| 🔹 **Google (Gemini)** | Prompt best practices (Gemini API)                                                                      | Prompting Best Practices (Webpage)              | [Google AI for Developers](https://ai.google.dev/docs/prompt_best_practices)                                                                            |
+|                   | Gemini for Workspace Prompting Guide 101                                                                  | Prompting Guide (PDF)                           | [PDF Download](https://services.google.com/fh/files/misc/gemini-for-google-workspace-prompting-guide-101.pdf)                                            |
+|                   | Build an AI Agent for Trip Planning with Gemini 1.5 Pro                                                   | Agent Building Tutorial (Webpage)               | [Google Cloud Blog](https://cloud.google.com/blog/topics/developers-practitioners/learn-how-to-create-an-ai-agent-for-trip-planning-with-gemini-1-5-pro) |
+| 🔹 **Anthropic (Claude)** | Claude 4 Prompt Engineering Best Practices                                                                | Prompt Engineering Best Practices (Webpage)     | [Anthropic Docs](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/claude-4-best-practices)                                      |
+|                   | Building Effective AI Agents                                                                              | Agent Building Guide (Webpage)                  | [Anthropic Engineering Blog](https://www.anthropic.com/engineering/building-effective-agents)                                                         |
+|                   | Claude Code: Best Practices for Agentic Coding                                                            | Agent Coding Best Practices (Webpage)           | [Anthropic Engineering Blog](https://www.anthropic.com/engineering/claude-code-best-practices)                                                          |
+| 🔹 **DeepSeek**   | DeepSeek Prompt Library                                                                                   | Prompt Library (for Agent Dev - Webpage)        | [DeepSeek API Docs - Prompt Library](https://api-docs.deepseek.com/prompt-library)                                                                        |
+
 
 # Excellent Prompts From Community
 I found some excellent open source prompts from community. Looking forward to more masterpieces from everyone.
