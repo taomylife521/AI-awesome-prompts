@@ -4,7 +4,16 @@
     <img width="650" src="https://raw.githubusercontent.com/ai-boost/awesome-gpts-prompts/main/assets/banner.png">
   </p>
   <p>
-      <a href="https://github.com/ai-boost/awesome-gpts-prompts">English</a> | <a href="https://github.com/ai-boost/awesome-gpts-prompts/blob/main/README_zh.md">简体中文</a>
+      <a href="https://github.com/ai-boost/awesome-gpts-prompts">English</a> | 
+      <!-- Keep these links. Translations will automatically update with the README. -->
+      <a href="https://www.readme-i18n.com/ai-boost/awesome-prompts?lang=de">Deutsch</a> | 
+      <a href="https://www.readme-i18n.com/ai-boost/awesome-prompts?lang=es">Español</a> | 
+      <a href="https://www.readme-i18n.com/ai-boost/awesome-prompts?lang=fr">français</a> | 
+      <a href="https://www.readme-i18n.com/ai-boost/awesome-prompts?lang=ja">日本語</a> | 
+      <a href="https://www.readme-i18n.com/ai-boost/awesome-prompts?lang=ko">한국어</a> | 
+      <a href="https://www.readme-i18n.com/ai-boost/awesome-prompts?lang=pt">Português</a> | 
+      <a href="https://www.readme-i18n.com/ai-boost/awesome-prompts?lang=ru">Русский</a> | 
+      <a href="https://www.readme-i18n.com/ai-boost/awesome-prompts?lang=zh">中文</a>
   </p>
   <p align="center">
     <p align="center"> This repository contains a curated list of awesome prompts on OpenAI GPT store.</p>
