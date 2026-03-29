@@ -26,6 +26,7 @@ This repo covers both. The engineering camp gets more space.
 - [📋 Prompts](#prompts) — copy-paste ready
   - [Coding & Development](#coding--development)
   - [Research & Analysis](#research--analysis)
+  - [Productivity & Tasks](#productivity--tasks)
   - [Image Generation](#image-generation)
   - [Legacy (2023 era)](#legacy-2023-era--kept-for-reference)
 - [🔬 Frameworks](#frameworks) — the engineering camp
@@ -53,6 +54,8 @@ All prompts are open — click, copy, use directly.
 | Name | Description | Prompt |
 |------|-------------|--------|
 | 🤖 Agentic Coder | Plan-first coding agent — security checklist, test discipline, PR summary format (2025) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/agentic_coder.txt) |
+| 🔍 Code Reviewer | Security-focused code reviewer — OWASP Top 10, severity grading, fix examples (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/code_reviewer_security.txt) |
+| 🕸 Multi-Agent Orchestrator | Central dispatch agent — task decomposition, parallel delegation, state tracking, error recovery (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/multi_agent_orchestrator.txt) |
 | ⚡ Claude Artifacts | System prompt for generating rich Claude Artifacts (UI, interactive apps, code) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/claude_artifacts_prompt.md) |
 | 💻 Professional Coder | Expert coding assistant — auto programming, project generation, any language | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/%F0%9F%92%BBProfessional%20Coder.md) |
 
@@ -78,6 +81,13 @@ All prompts are open — click, copy, use directly.
 |------|-------------|--------|
 | 🔬 Deep Research Agent | Multi-step research system prompt — plan, search, cross-check, synthesize (2025) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/deep_research.txt) |
 | 📊 Data Analysis | Extract insights, flag anomalies, recommend specific visualizations | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/data_analysis.txt) |
+| 🗂 Structured Output Extractor | Schema-strict JSON extraction — type safety, null handling, multi-record, self-validation (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/structured_output_extractor.txt) |
+
+### Productivity & Tasks
+
+| Name | Description | Prompt |
+|------|-------------|--------|
+| ✅ GTD Productivity Assistant | Full GTD system — capture, clarify, organize, reflect, weekly review; implicit task detection (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/productivity_assistant_gtd.txt) |
 
 ### Meta & Prompt Engineering
 
@@ -150,7 +160,7 @@ Make prompt quality measurable. Regression tests, benchmarks, and CI/CD for LLM 
 
 | Project | Stars | What it does |
 |---------|-------|-------------|
-| [**promptfoo**](https://github.com/promptfoo/promptfoo) | ~19k | Test-driven prompt engineering: regression tests, red teaming, model comparison, CI/CD integration. Used at OpenAI and Anthropic. |
+| [**promptfoo**](https://github.com/promptfoo/promptfoo) | ~19k | Test-driven prompt engineering: regression tests, red teaming, model comparison, CI/CD integration. [Acquired by OpenAI (Mar 2026)](https://openai.com/index/openai-to-acquire-promptfoo/) — remains open source. |
 | [**OpenAI Evals**](https://github.com/openai/evals) | ~18k | Open eval framework and benchmark registry — standardizes LLM performance measurement. |
 
 ### Red Team & Security
@@ -160,6 +170,7 @@ Probe LLM systems for vulnerabilities before attackers do.
 | Project | Stars | What it does |
 |---------|-------|-------------|
 | [**garak**](https://github.com/NVIDIA/garak) | ~7k | LLM vulnerability scanner by NVIDIA — red teaming, prompt injection, jailbreak, and leakage detection. |
+| [**OpenAI: Prompt Injection Defense**](https://openai.com/index/designing-agents-to-resist-prompt-injection/) | — | Official OpenAI guide on designing agents to resist prompt injection — browser agents, defense principles (2026). |
 
 ### Eval & Observability
 
@@ -263,6 +274,7 @@ Context engineering is the practice of designing *what* goes into an LLM's conte
 | [**OpenAI Agents SDK**](https://openai.github.io/openai-agents-python/) | OpenAI | OpenAI-native orchestration (Mar 2025) |
 | [**Google ADK**](https://google.github.io/adk-docs/) | Google | Gemini-native development (Apr 2025) |
 | [**Claude Code**](https://docs.anthropic.com/en/docs/claude-code) | Anthropic | Agentic coding with Agent Teams (Feb 2026) |
+| [**karpathy/autoresearch**](https://github.com/karpathy/autoresearch) | Karpathy | 630-line self-improving agent — reads its own training code, forms hypotheses, runs experiments overnight (~42k ★, Mar 2026) |
 
 > **Feb 2026 multi-agent wave:** In a two-week window, Claude Code Agent Teams, Windsurf parallel agents (5), Grok Build (8 agents), Codex CLI, and Devin parallel sessions all shipped simultaneously — multi-agent is now the baseline, not a feature.
 
@@ -313,6 +325,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [Effective Harnesses for Long-Running Agents — Anthropic](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents) | Long-running agent design |
 | [SethGammon/Citadel](https://github.com/SethGammon/Citadel) | Production harness: 4-tier routing, parallel worktrees, lifecycle hooks, 6 skills |
 | [langchain-ai/deepagents](https://github.com/langchain-ai/deepagents) | LangChain's opinionated deep agent harness (used in TerminalBench) |
+| [Building a C Compiler with Parallel Claudes — Anthropic](https://www.anthropic.com/engineering/building-c-compiler) (Feb 2026) | How Anthropic used parallel Claude sub-agents to build a C compiler — generator/evaluator harness patterns |
 
 ---
 
@@ -323,8 +336,11 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | **Anthropic** | [Prompt Engineering Best Practices](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) | Prompting |
 | **Anthropic** | [Building Effective AI Agents](https://www.anthropic.com/research/building-effective-agents) | Agents |
 | **Anthropic** | [Claude Code Best Practices](https://www.anthropic.com/engineering/claude-code-best-practices) | Agentic Coding |
+| **Anthropic** | [Demystifying Evals for AI Agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents) (Jan 2026) | Agent Evals |
 | **OpenAI** | [GPT-4.1 Prompting Guide](https://cookbook.openai.com/examples/gpt4-1_prompting_guide) | Prompting |
 | **OpenAI** | [A Practical Guide to Building Agents](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf) | Agents |
+| **OpenAI** | [Designing Agents to Resist Prompt Injection](https://openai.com/index/designing-agents-to-resist-prompt-injection/) (2026) | Security |
+| **Google** | [Build with Gemini Deep Research](https://blog.google/innovation-and-ai/technology/developers-tools/deep-research-agent-gemini-api/) (2026) | Research Agents |
 | **Google** | [Gemini Prompting Best Practices](https://ai.google.dev/docs/prompt_best_practices) | Prompting |
 | **DeepSeek** | [DeepSeek Prompt Library](https://api-docs.deepseek.com/prompt-library) | Prompting |
 | **Brex** | [Prompt Engineering (production-focused)](https://github.com/brexhq/prompt-engineering) | Engineering |
@@ -360,6 +376,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | Paper | Key Contribution |
 |-------|-----------------|
 | [Chain of Draft (2025)](https://arxiv.org/abs/2502.18600) | ≤5 words per reasoning step — 91% of CoT accuracy at 7.6% of the tokens; 76% latency reduction | [PDF](papers/Chain_of_Draft_Thinking_Faster_by_Writing_Less.pdf) |
+| [Think Deep, Not Just Long (2026)](https://arxiv.org/abs/2602.13517) | Longer CoT ≠ better reasoning — identifies "deep-thinking tokens" (high-revision tokens) as the true signal; enables cost-efficient test-time scaling | [PDF](papers/Think_Deep_Not_Just_Long_Measuring_LLM_Reasoning_Effort.pdf) |
 
 ### Surveys
 
@@ -381,6 +398,13 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | Paper | Key Contribution |
 |-------|-----------------|
 | [Towards a Science of AI Agent Reliability (2026)](https://arxiv.org/abs/2602.16666) | 12 concrete reliability metrics across consistency, robustness, predictability, safety — capability gains ≠ reliability gains | [PDF](papers/Towards_Science_of_AI_Agent_Reliability.pdf) |
+| [Agentic Reasoning for LLMs (2026)](https://arxiv.org/abs/2601.12538) | Comprehensive survey: 3-layer framework (single-agent capabilities → self-evolving agents → multi-agent coordination); 202 Hugging Face likes | [PDF](papers/Agentic_Reasoning_for_Large_Language_Models.pdf) |
+
+### Context & Memory
+
+| Paper | Key Contribution |
+|-------|-----------------|
+| [Active Context Compression (2026)](https://arxiv.org/abs/2601.07190) | Focus agent architecture — autonomously consolidates history into a Knowledge block and prunes stale context; 22.7% token reduction on SWE-bench Lite, no accuracy loss | [PDF](papers/Active_Context_Compression_Autonomous_Memory_Management.pdf) |
 
 **Curated reading list:** [The 2025 AI Engineering Reading List — Latent Space](https://www.latent.space/p/2025-papers)
 
@@ -397,6 +421,8 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | Microsoft's LLM SDK (Python/C#/Java) |
 | [TensorZero](https://www.tensorzero.com/) | LLM gateway + observability + optimization |
 | [Outlines](https://github.com/dottxt-ai/outlines) | Structured text generation and constrained outputs |
+| [PydanticAI](https://github.com/pydantic/pydantic-ai) | Official Pydantic agent runtime — typed tools, structured outputs, evals, production-ready (V1 stable, ~16k ★) |
+| [Instructor](https://github.com/instructor-ai/instructor) | Most widely used library for structured LLM outputs — typed extraction from any model, 3M+ monthly downloads |
 | [LM Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness) | EleutherAI's unified LLM evaluation framework |
 | [Weights & Biases](https://wandb.ai/site/solutions/llmops) | Experiment tracking and LLMOps |
 | [Promptingguide.ai](https://www.promptingguide.ai/) | Comprehensive prompt engineering reference (DAIR-AI) |
