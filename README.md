@@ -24,6 +24,9 @@ This repo covers both. The engineering camp gets more space.
 ## Table of Contents
 
 - [📋 Prompts](#prompts) — copy-paste ready
+  - [Coding & Development](#coding--development)
+  - [Research & Analysis](#research--analysis)
+  - [Image Generation](#image-generation)
   - [Legacy (2023 era)](#legacy-2023-era--kept-for-reference)
 - [🔬 Frameworks](#frameworks) — the engineering camp
   - [Prompt Programming](#prompt-programming)
@@ -49,6 +52,7 @@ All prompts are open — click, copy, use directly.
 
 | Name | Description | Prompt |
 |------|-------------|--------|
+| 🤖 Agentic Coder | Plan-first coding agent — security checklist, test discipline, PR summary format (2025) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/agentic_coder.txt) |
 | ⚡ Claude Artifacts | System prompt for generating rich Claude Artifacts (UI, interactive apps, code) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/claude_artifacts_prompt.md) |
 | 💻 Professional Coder | Expert coding assistant — auto programming, project generation, any language | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/%F0%9F%92%BBProfessional%20Coder.md) |
 
@@ -68,13 +72,27 @@ All prompts are open — click, copy, use directly.
 | 📗 All-around Teacher | Adaptive tutor — explains anything in 3 minutes, customized to your level | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/%F0%9F%93%97All-around%20Teacher.md) |
 | 🚀 LearnOS PRO | Interactive learning assistant with dynamic, personalized explanations | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/LearnOS_PRO.txt) |
 
+### Research & Analysis
+
+| Name | Description | Prompt |
+|------|-------------|--------|
+| 🔬 Deep Research Agent | Multi-step research system prompt — plan, search, cross-check, synthesize (2025) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/deep_research.txt) |
+| 📊 Data Analysis | Extract insights, flag anomalies, recommend specific visualizations | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/data_analysis.txt) |
+
 ### Meta & Prompt Engineering
 
 | Name | Description | Prompt |
 |------|-------------|--------|
+| ⚡ Chain of Draft | Minimal reasoning scratchpad — 5 words per step, 92% fewer tokens vs CoT (arXiv 2502.18600) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/chain_of_draft.txt) |
 | ⚛ Meta Prompt | Meta-Expert orchestrates specialist sub-agents to solve complex problems | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/meta_prompt.txt) |
 | 📓 Prompt Creator | Auto-generates high-quality prompts from a brief description | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Prompt%20Creater.md) |
-| 🎨 Meta MJ | Midjourney image prompt generator — structured visual prompt creation | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Meta%20MJ.md) |
+
+### Image Generation
+
+| Name | Description | Prompt |
+|------|-------------|--------|
+| 🖼 Flux Image Gen | Full guide + template for Flux prompting — camera/lens/lighting/style system (2025) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/flux_image_gen.txt) |
+| 🎨 Meta MJ | Midjourney prompt generator — token vectors, weighting, interactive optimization | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Meta%20MJ.md) |
 
 ### Creative & Role-play
 
@@ -333,6 +351,15 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [MIPRO / Multi-Stage DSPy (2024)](https://arxiv.org/abs/2406.11695) | Optimizes instructions and demonstrations across multi-stage LM programs |
 | [TextGrad (2024)](https://arxiv.org/abs/2406.07496) | "Autograd for text" — LLM feedback as gradients, published in Nature |
 | [GEPA (2025)](https://arxiv.org/abs/2507.19457) | Reflective evolution outperforms GRPO by 6–20 pts with fewer rollouts |
+| [Modular Prompt Optimization (2026)](https://arxiv.org/abs/2601.04055) | Treats prompts as structured objects; optimizes each semantic section independently with local textual gradients | [PDF](papers/Modular_Prompt_Optimization_Section_Local_Textual_Gradients.pdf) |
+| [Causal Prompt Optimization (2026)](https://arxiv.org/abs/2602.01711) | Reframes prompt design as causal estimation — uses Double Machine Learning to isolate prompt effects | [PDF](papers/Causal_Prompt_Optimization.pdf) |
+| [Self-Evolving Memory for Prompt Optimization (2026)](https://arxiv.org/abs/2603.21520) | Memory-augmented APO that stores historical refinement insights and reuses them across iterations | [PDF](papers/Self_Evolving_Memory_Automatic_Prompt_Optimization.pdf) |
+
+### Reasoning Techniques
+
+| Paper | Key Contribution |
+|-------|-----------------|
+| [Chain of Draft (2025)](https://arxiv.org/abs/2502.18600) | ≤5 words per reasoning step — 91% of CoT accuracy at 7.6% of the tokens; 76% latency reduction | [PDF](papers/Chain_of_Draft_Thinking_Faster_by_Writing_Less.pdf) |
 
 ### Surveys
 
@@ -347,6 +374,13 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [GraphRAG (2025)](https://arxiv.org/abs/2501.00309) | Graph-structured retrieval enabling multi-hop reasoning |
 | [Self-RAG (2024)](https://arxiv.org/abs/2310.11511) | Model decides when and how to retrieve |
 | [Agentic RAG Survey (2025)](https://arxiv.org/abs/2501.09136) | Agents embedded in RAG pipelines — dynamic, reasoning-driven retrieval beyond static pipelines |
+| [A-RAG: Agentic RAG via Hierarchical Retrieval (2026)](https://arxiv.org/abs/2602.03442) | Hierarchical retrieval interfaces enabling agents to dynamically navigate multi-level knowledge structures | [PDF](papers/A_RAG_Agentic_Retrieval_Augmented_Generation.pdf) |
+
+### Agent Reliability
+
+| Paper | Key Contribution |
+|-------|-----------------|
+| [Towards a Science of AI Agent Reliability (2026)](https://arxiv.org/abs/2602.16666) | 12 concrete reliability metrics across consistency, robustness, predictability, safety — capability gains ≠ reliability gains | [PDF](papers/Towards_Science_of_AI_Agent_Reliability.pdf) |
 
 **Curated reading list:** [The 2025 AI Engineering Reading List — Latent Space](https://www.latent.space/p/2025-papers)
 
