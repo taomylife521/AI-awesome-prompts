@@ -1,5 +1,8 @@
 <div align="center">
   <h2 align="center">Awesome Prompts 🪶</h2>
+  <p align="center">
+    <img width="650" src="https://raw.githubusercontent.com/ai-boost/awesome-prompts/main/assets/banner.png">
+  </p>
   <p align="center">Curated prompts, frameworks, and papers — with an engineering bias.</p>
   <p align="center">
     <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
