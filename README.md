@@ -159,7 +159,7 @@ These prompts used slash-command or symbolic-encoding styles common in 2023. Sti
 
 The shift from "writing prompts" to "engineering prompts": compile, test, optimize, and control LM programs programmatically.
 
-**Start here:** [dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) (~72k ★) — the canonical entry point. Covers techniques, adversarial prompting, RAG, agents, papers, and notebooks.
+**Start here:** [dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) ![](https://img.shields.io/github/stars/dair-ai/Prompt-Engineering-Guide?style=flat-square) — the canonical entry point. Covers techniques, adversarial prompting, RAG, agents, papers, and notebooks.
 
 ### Prompt Programming
 
@@ -285,7 +285,7 @@ Context engineering is the practice of designing *what* goes into an LLM's conte
 **Guides & Resources:**
 - [Effective Context Engineering for AI Agents — Anthropic](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)
 - [Context Engineering Guide — Prompt Engineering Guide](https://www.promptingguide.ai/guides/context-engineering-guide)
-- [davidkimai/Context-Engineering](https://github.com/davidkimai/Context-Engineering) (~8.6k ★) — first-principles handbook on context design, orchestration, and optimization
+- [davidkimai/Context-Engineering](https://github.com/davidkimai/Context-Engineering) ![](https://img.shields.io/github/stars/davidkimai/Context-Engineering?style=flat-square) — first-principles handbook on context design, orchestration, and optimization
 - [Meirtz/Awesome-Context-Engineering](https://github.com/Meirtz/Awesome-Context-Engineering) — curated papers, frameworks, and implementation guides
 
 ---
@@ -302,12 +302,12 @@ Context engineering is the practice of designing *what* goes into an LLM's conte
 | [**OpenAI Agents SDK**](https://openai.github.io/openai-agents-python/) | OpenAI | OpenAI-native orchestration (Mar 2025) |
 | [**Google ADK**](https://google.github.io/adk-docs/) | Google | Gemini-native development (Apr 2025) |
 | [**Claude Code**](https://docs.anthropic.com/en/docs/claude-code) | Anthropic | Agentic coding with Agent Teams (Feb 2026) |
-| [**karpathy/autoresearch**](https://github.com/karpathy/autoresearch) | Karpathy | 630-line self-improving agent — reads its own training code, forms hypotheses, runs experiments overnight (~42k ★, Mar 2026) |
-| [**Microsoft Agent Framework**](https://github.com/microsoft/agent-framework) | Microsoft | Unified successor to AutoGen + Semantic Kernel — event-driven actor model, multi-agent orchestration (8.3k ★, RC 2026) |
-| [**openai/codex**](https://github.com/openai/codex) | OpenAI | Lightweight agentic coding CLI — o3/o4-mini powered, runs in terminal, 68k ★ (Apr 2025, active 2026) |
-| [**DeerFlow 2.0**](https://github.com/bytedance/deer-flow) | ByteDance | Long-horizon "SuperAgent" — filesystem, sandboxed execution, persistent memory, parallel sub-agents, skill system; LangGraph-based; 53k ★, hit #1 GitHub Trending on launch day (Feb 28, 2026) |
-| [**smolagents**](https://github.com/huggingface/smolagents) | HuggingFace | Minimal code-first agent framework (~1000 LOC core) — MCP integration, multi-agent hierarchies, multimodal I/O, 100+ model providers; 26k ★ |
-| [**browser-use**](https://github.com/browser-use/browser-use) | OSS | AI-driven browser automation — agents control a real browser to complete web tasks; 89% on WebVoyager benchmark; widely integrated; 81k ★ |
+| [**karpathy/autoresearch**](https://github.com/karpathy/autoresearch) | Karpathy | 630-line self-improving agent — reads its own training code, forms hypotheses, runs experiments overnight (Mar 2026) ![](https://img.shields.io/github/stars/karpathy/autoresearch?style=flat-square) |
+| [**Microsoft Agent Framework**](https://github.com/microsoft/agent-framework) | Microsoft | Unified successor to AutoGen + Semantic Kernel — event-driven actor model, multi-agent orchestration (RC 2026) ![](https://img.shields.io/github/stars/microsoft/agent-framework?style=flat-square) |
+| [**openai/codex**](https://github.com/openai/codex) | OpenAI | Lightweight agentic coding CLI — o3/o4-mini powered, runs in terminal (Apr 2025, active 2026) ![](https://img.shields.io/github/stars/openai/codex?style=flat-square) |
+| [**DeerFlow 2.0**](https://github.com/bytedance/deer-flow) | ByteDance | Long-horizon "SuperAgent" — filesystem, sandboxed execution, persistent memory, parallel sub-agents, skill system; LangGraph-based; hit #1 GitHub Trending on launch day (Feb 28, 2026) ![](https://img.shields.io/github/stars/bytedance/deer-flow?style=flat-square) |
+| [**smolagents**](https://github.com/huggingface/smolagents) | HuggingFace | Minimal code-first agent framework (~1000 LOC core) — MCP integration, multi-agent hierarchies, multimodal I/O, 100+ model providers ![](https://img.shields.io/github/stars/huggingface/smolagents?style=flat-square) |
+| [**browser-use**](https://github.com/browser-use/browser-use) | OSS | AI-driven browser automation — agents control a real browser to complete web tasks; 89% on WebVoyager benchmark ![](https://img.shields.io/github/stars/browser-use/browser-use?style=flat-square) |
 
 > **Feb 2026 multi-agent wave:** In a two-week window, Claude Code Agent Teams, Windsurf parallel agents (5), Grok Build (8 agents), Codex CLI, and Devin parallel sessions all shipped simultaneously — multi-agent is now the baseline, not a feature.
 
@@ -320,7 +320,7 @@ Open protocol (Anthropic, Nov 2024) for connecting LLMs to tools and data. Now a
 
 ### A2A — Agent-to-Agent Protocol
 
-Open protocol (Google, Apr 2025 → Linux Foundation, Mar 2026) for cross-framework agent communication. Where MCP connects agents *to tools*, A2A connects *agents to agents* — enabling delegation, negotiation, and handoff across different frameworks and vendors. v1.0.0 released March 2026 with gRPC support, Agent Card signing, and Python/JS/Go SDKs. 22.9k ★, 150+ adopters (Atlassian, Box, Salesforce, SAP, Cohere, MongoDB…).
+Open protocol (Google, Apr 2025 → Linux Foundation, Mar 2026) for cross-framework agent communication. Where MCP connects agents *to tools*, A2A connects *agents to agents* — enabling delegation, negotiation, and handoff across different frameworks and vendors. v1.0.0 released March 2026 with gRPC support, Agent Card signing, and Python/JS/Go SDKs. ![](https://img.shields.io/github/stars/a2aproject/A2A?style=flat-square) 150+ adopters (Atlassian, Box, Salesforce, SAP, Cohere, MongoDB…).
 
 - GitHub: [a2aproject/A2A](https://github.com/a2aproject/A2A)
 - Docs: [google.github.io/adk-docs/a2a/](https://google.github.io/adk-docs/a2a/)
@@ -337,7 +337,7 @@ An open standard (Anthropic, Dec 2025) for packaging expertise into portable dir
 
 | Resource | Notes |
 |----------|-------|
-| [anthropics/skills](https://github.com/anthropics/skills) | Official collection + spec (`/spec/agent-skills-spec.md`) — 105k ★ |
+| [anthropics/skills](https://github.com/anthropics/skills) | Official collection + spec (`/spec/agent-skills-spec.md`) ![](https://img.shields.io/github/stars/anthropics/skills?style=flat-square) |
 | [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 1000+ community skills, works across all major platforms |
 | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | Vercel's official skills |
 | [Agent Skills Docs — Anthropic](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) | Official docs & spec |
@@ -503,11 +503,11 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [LangChain](https://github.com/langchain-ai/langchain) | LLM orchestration and chaining |
 | [LlamaIndex](https://github.com/run-llama/llama_index) | Data ingestion and RAG pipelines |
 | [LiteLLM](https://github.com/BerriAI/litellm) | Unified API for 100+ LLM providers |
-| [Ollama](https://github.com/ollama/ollama) | Run LLMs locally — 165k stars, desktop app, multimodal, structured outputs |
+| [Ollama](https://github.com/ollama/ollama) | Run LLMs locally — desktop app, multimodal, structured outputs ![](https://img.shields.io/github/stars/ollama/ollama?style=flat-square) |
 | [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | Microsoft's LLM SDK — now merging with AutoGen into [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) (2026) |
 | [TensorZero](https://www.tensorzero.com/) | LLM gateway + observability + optimization |
 | [Outlines](https://github.com/dottxt-ai/outlines) | Structured text generation and constrained outputs |
-| [PydanticAI](https://github.com/pydantic/pydantic-ai) | Official Pydantic agent runtime — typed tools, structured outputs, evals, production-ready (V1 stable, ~16k ★) |
+| [PydanticAI](https://github.com/pydantic/pydantic-ai) | Official Pydantic agent runtime — typed tools, structured outputs, evals, production-ready (V1 stable) ![](https://img.shields.io/github/stars/pydantic/pydantic-ai?style=flat-square) |
 | [Instructor](https://github.com/instructor-ai/instructor) | Most widely used library for structured LLM outputs — typed extraction from any model, 3M+ monthly downloads |
 | [LM Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness) | EleutherAI's unified LLM evaluation framework |
 | [Weights & Biases](https://wandb.ai/site/solutions/llmops) | Experiment tracking and LLMOps |
@@ -516,7 +516,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [langgptai/awesome-claude-prompts](https://github.com/langgptai/awesome-claude-prompts) | Claude-optimized prompts — XML tags, extended thinking, long-context patterns |
 | [langgptai/awesome-deep-research-prompts](https://github.com/langgptai/awesome-deep-research-prompts) | Prompts for OpenAI Deep Research, Gemini Deep Research, Perplexity Labs |
 | [Anthropic Prompt Library](https://docs.anthropic.com/en/prompt-library/library) | Official production-ready prompts from Anthropic |
-| [NirDiamant/Prompt_Engineering](https://github.com/NirDiamant/Prompt_Engineering) | 22 Jupyter Notebook tutorials from basics to advanced — CoT, few-shot, templates, multi-language; 6.9k ★ |
+| [NirDiamant/Prompt_Engineering](https://github.com/NirDiamant/Prompt_Engineering) | 22 Jupyter Notebook tutorials from basics to advanced — CoT, few-shot, templates, multi-language ![](https://img.shields.io/github/stars/NirDiamant/Prompt_Engineering?style=flat-square) |
 
 ---
 
