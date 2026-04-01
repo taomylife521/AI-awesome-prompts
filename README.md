@@ -95,6 +95,7 @@ All prompts are open — click, copy, use directly.
 | Name | Description | Prompt |
 |------|-------------|--------|
 | 🔧 Data Engineer | Data pipeline specialist — Medallion Architecture (Bronze/Silver/Gold), PySpark + Delta Lake, dbt contracts, Great Expectations, Kafka streaming (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/data_engineer.md) |
+| 📈 Analytics Engineer | Production data infrastructure — dimensional modeling, dbt, pipeline architecture, data quality testing, metrics definition (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/analytics_engineer.txt) |
 
 ### Product & Strategy
 
@@ -142,6 +143,8 @@ All prompts are open — click, copy, use directly.
 | Name | Description | Prompt |
 |------|-------------|--------|
 | 🛡 Content Moderator | CoT-based content moderation — policy-driven ALLOW/BLOCK classification with thinking trace and structured verdict (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/content_moderator.txt) |
+| 🔐 Security Researcher | Threat modeling (STRIDE), vulnerability assessment, attack surface enumeration, exploit analysis, defense recommendations (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/security_researcher.txt) |
+| ✅ QA Agent | Critical quality assurance — edge cases, error handling, security (OWASP), performance, integration, observability testing (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/qa_agent.txt) |
 
 ### Meta & Prompt Engineering
 
@@ -340,6 +343,8 @@ Context engineering is the practice of designing *what* goes into an LLM's conte
 | [**smolagents**](https://github.com/huggingface/smolagents) | HuggingFace | Minimal code-first agent framework (~1000 LOC core) — MCP integration, multi-agent hierarchies, multimodal I/O, 100+ model providers ![](https://img.shields.io/github/stars/huggingface/smolagents?style=flat-square) |
 | [**browser-use**](https://github.com/browser-use/browser-use) | OSS | AI-driven browser automation — agents control a real browser to complete web tasks; 89% on WebVoyager benchmark ![](https://img.shields.io/github/stars/browser-use/browser-use?style=flat-square) |
 | [**Mastra**](https://github.com/mastra-ai/mastra) | Gatsby team | TypeScript-first AI agent framework — Agent/Workflow/RAG/Evals primitives, 40+ model providers, native MCP server support (YC W25, 2026) ![](https://img.shields.io/github/stars/mastra-ai/mastra?style=flat-square) |
+| [**PraisonAI**](https://github.com/MervinPraison/PraisonAI) | Mervin Praison | Production-ready multi-agent framework — 100+ LLM providers, MCP integration, memory/RAG/guardrails, 24/7 delivery to Telegram/Discord/WhatsApp, fastest agent instantiation (2026) ![](https://img.shields.io/github/stars/MervinPraison/PraisonAI?style=flat-square) |
+| [**Portia AI**](https://github.com/portiaAI) | Portia Labs | Open-source predictable agent framework — 1000+ cloud/MCP tools, built-in auth, auditability and security focus for enterprise workflows (2026) ![](https://img.shields.io/github/stars/portiaAI/portia?style=flat-square) |
 
 > **Feb 2026 multi-agent wave:** In a two-week window, Claude Code Agent Teams, Windsurf parallel agents (5), Grok Build (8 agents), Codex CLI, and Devin parallel sessions all shipped simultaneously — multi-agent is now the baseline, not a feature.
 
@@ -565,6 +570,10 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [LM Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness) | EleutherAI's unified LLM evaluation framework |
 | [Weights & Biases](https://wandb.ai/site/solutions/llmops) | Experiment tracking and LLMOps |
 | [Promptingguide.ai](https://www.promptingguide.ai/) | Comprehensive prompt engineering reference (DAIR-AI) |
+| [awesome-ai-agents-2026](https://github.com/caramaschiHG/awesome-ai-agents-2026) | Most comprehensive list of 2026 AI agents, frameworks & tools — 300+ resources, 20+ categories, updated monthly ![](https://img.shields.io/github/stars/caramaschiHG/awesome-ai-agents-2026?style=flat-square) |
+| [Awesome-Agent-Papers](https://github.com/luo-junyu/Awesome-Agent-Papers) | Curated papers on LLM agents: methodology, applications, challenges — covers STRIDE, planning, tool use, memory, multi-agent (2026) ![](https://img.shields.io/github/stars/luo-junyu/Awesome-Agent-Papers?style=flat-square) |
+| [Awesome-Agentic-Reasoning](https://github.com/weitianxin/Awesome-Agentic-Reasoning) | Papers and resources on agentic reasoning from foundational to multi-agent coordination — 3-layer framework (2026) ![](https://img.shields.io/github/stars/weitianxin/Awesome-Agentic-Reasoning?style=flat-square) |
+| [Agent-Memory-Paper-List](https://github.com/Shichun-Liu/Agent-Memory-Paper-List) | Curated papers on memory architectures for LLM agents — long-term, short-term, attention mechanisms (2026) ![](https://img.shields.io/github/stars/Shichun-Liu/Agent-Memory-Paper-List?style=flat-square) |
 | [awesome-ai-agent-papers](https://github.com/VoltAgent/awesome-ai-agent-papers) | Curated 2025–2026 papers on agent engineering, memory, eval, and workflows |
 | [langgptai/awesome-claude-prompts](https://github.com/langgptai/awesome-claude-prompts) | Claude-optimized prompts — XML tags, extended thinking, long-context patterns |
 | [langgptai/awesome-deep-research-prompts](https://github.com/langgptai/awesome-deep-research-prompts) | Prompts for OpenAI Deep Research, Gemini Deep Research, Perplexity Labs |
