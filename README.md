@@ -41,6 +41,7 @@ This repo covers both. The engineering camp gets more space.
   - [Data Engineering](#data-engineering)
   - [AI & ML](#ai--ml)
   - [Product & Strategy](#product--strategy)
+  - [Project Management](#project-management)
   - [Healthcare & Clinical](#healthcare--clinical)
   - [Legal & Compliance](#legal--compliance)
   - [Knowledge & Documentation](#knowledge--documentation)
@@ -132,6 +133,12 @@ All prompts are open — click, copy, use directly.
 | 💰 Financial Advisor | Comprehensive wealth management — financial planning, investment strategy, risk management, tax optimization, estate planning, behavioral coaching (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/financial_advisor.txt) |
 | 🔍 SEO Specialist | Technical SEO, content strategy, link authority, SERP features — audit templates, keyword research, E-E-A-T, Core Web Vitals, AI search adaptation (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/seo_specialist.txt) |
 
+### Project Management
+
+| Name | Description | Prompt |
+|------|-------------|--------|
+| 🏃 Scrum Master | Certified Scrum Master — sprint ceremonies, impediment removal, team coaching, velocity tracking, retrospectives, scaling (SAFe/LeSS/Nexus) (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/scrum_master.txt) |
+
 ### Healthcare & Clinical
 
 | Name | Description | Prompt |
@@ -195,6 +202,8 @@ All prompts are open — click, copy, use directly.
 | 🛡 Content Moderator | CoT-based content moderation — policy-driven ALLOW/BLOCK classification with thinking trace and structured verdict (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/content_moderator.txt) |
 | 🔐 Security Researcher | Threat modeling (STRIDE), vulnerability assessment, attack surface enumeration, exploit analysis, defense recommendations (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/security_researcher.txt) |
 | ✅ QA Agent | Critical quality assurance — edge cases, error handling, security (OWASP), performance, integration, observability testing (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/qa_agent.txt) |
+| ♿ Accessibility Auditor | WCAG 2.2 AA auditor — screen reader testing, keyboard navigation, ARIA patterns, assistive tech, CI/CD integration, legal compliance (ADA/EAA/508) (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/accessibility_auditor.txt) |
+| 🎯 Threat Detection Engineer | SOC detection engineering — Sigma rules, SIEM (Splunk/Sentinel/Elastic), MITRE ATT&CK coverage mapping, threat hunting, detection-as-code CI/CD (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/threat_detection_engineer.txt) |
 
 ### Meta & Prompt Engineering
 
@@ -526,6 +535,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [Reasoning Theater: Disentangling Model Beliefs from CoT (2026)](https://arxiv.org/abs/2603.05488) | For simple tasks, the model's final answer is already decodable from early-layer activations before CoT generates a single token — CoT produces genuine belief change only on hard problems; probe-guided early-exit reduces token generation by 80% on simple tasks | [PDF](papers/Reasoning_Theater_CoT_vs_Model_Beliefs.pdf) |
 | [FLARE: Why Reasoning Fails to Plan (2026)](https://arxiv.org/abs/2601.22311) | Diagnoses root cause of LLM agent long-horizon planning failures (stepwise reasoning induces greedy policy); FLARE (Future-aware Lookahead + Reward Estimation) lets LLaMA-8B surpass GPT-4o on planning benchmarks | [PDF](papers/FLARE_Why_Reasoning_Fails_to_Plan.pdf) |
 | [Agentic Code Reasoning (March 2026)](https://arxiv.org/abs/2603.01896) | Semi-formal reasoning using structured templates requiring explicit evidence — achieves 87% accuracy on code QA, 9 pp gain over standard agentic reasoning; enables interpretable code understanding for complex reasoning tasks |
+| [Reasoning Shift: How Context Silently Shortens LLM Reasoning (April 2026)](https://arxiv.org/abs/2604.01161) | Contextual changes cause reasoning models to compress traces by up to 50%, reducing self-verification; simple problems unaffected but harder tasks suffer — critical finding for agent multi-turn reasoning | [PDF](papers/Reasoning_Shift_Context_Shortens_LLM_Reasoning.pdf) |
 
 ### Surveys
 
@@ -569,6 +579,8 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [EvoSkills: Self-Evolving Agent Skills via Co-Evolutionary Verification (April 2026)](https://arxiv.org/abs/2604.01687) | Skill Generator iteratively refines agent skills while a Surrogate Verifier co-evolves to provide actionable feedback without ground-truth; surpasses human-written skills on SkillsBench in 5 rounds; works on Claude Code and Codex | [PDF](papers/EvoSkills_Self_Evolving_Agent_Skills.pdf) |
 | [OpenClaw-RL: Train Any Agent Simply by Talking (2026)](https://arxiv.org/abs/2603.10165) | Every agent interaction generates a next-state signal (user reply, tool output, GUI state) — OpenClaw-RL recovers all of them as live RL training sources via Hindsight-Guided On-Policy Distillation; one unified policy trains across conversation, terminal, SWE, and GUI tasks simultaneously (145 HF likes) | [PDF](papers/OpenClaw_RL_Train_Any_Agent_Simply_by_Talking.pdf) |
 | [MetaClaw: Just Talk — An Agent That Meta-Learns and Evolves in the Wild (2026)](https://arxiv.org/abs/2603.17187) | Continual meta-learning framework that jointly evolves a base LLM policy and a reusable skill library — skill-driven fast adaptation from failure trajectories + opportunistic gradient updates during idle periods; 21.4% → 40.6% accuracy on benchmarks (134 HF likes) | [PDF](papers/MetaClaw_Agent_Continual_Meta_Learning_Evolves_in_Wild.pdf) |
+| [CORAL: Autonomous Multi-Agent Evolution for Open-Ended Discovery (April 2026)](https://arxiv.org/abs/2604.01658) | Framework enabling autonomous multi-agent evolution via persistent memory, asynchronous execution, and collaborative exploration — 3–10x higher improvement rates with fewer evaluations than evolutionary baselines; 251 HF likes | [PDF](papers/CORAL_Autonomous_Multi_Agent_Evolution.pdf) |
+| [SKILL0: In-Context Agentic RL for Skill Internalization (April 2026)](https://arxiv.org/abs/2604.02268) | Progressively withdraws skill documentation during training until agents operate zero-shot — +9.7% on ALFWorld, +6.6% on Search-QA with <0.5k tokens per step; 133 HF likes | [PDF](papers/SKILL0_In_Context_Agentic_RL_Skill_Internalization.pdf) |
 
 ### Agent Safety
 
@@ -582,12 +594,6 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [Jailbreaking LLMs & VLMs: Mechanisms, Evaluation, and Unified Defense (2026)](https://arxiv.org/abs/2601.03594) | First unified survey spanning both LLM and VLM jailbreak — covers template, in-context, RL, and multimodal attack types; proposes 3-layer defense framework (perception / generation / parameter layers) | [PDF](papers/Jailbreaking_LLMs_VLMs_Unified_Survey.pdf) |
 | [Attack and Defense Landscape of Agentic AI (2026)](https://arxiv.org/abs/2603.11088) | Dawn Song (UC Berkeley) et al. — first complete security survey for agentic AI systems (LLM + external tools/components); establishes threat model covering full attack surface and defense mechanisms; USENIX Security 2026 | [PDF](papers/Attack_Defense_Landscape_Agentic_AI.pdf) |
 
-### Tool Use
-
-| Paper | Key Contribution |
-|-------|-----------------|
-| [CCTU: Tool Use under Complex Constraints (2026)](https://arxiv.org/abs/2603.15309) | 200-task benchmark across 12 constraint categories (resource, behavior, toolset, response) with step-level validation; no model exceeds 20% completion; models violate constraints in >50% of cases with limited self-correction | [PDF](papers/CCTU_Tool_Use_Complex_Constraints_Benchmark.pdf) |
-
 ### Context & Memory
 
 | Paper | Key Contribution |
@@ -595,11 +601,13 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [Active Context Compression (2026)](https://arxiv.org/abs/2601.07190) | Focus agent architecture — autonomously consolidates history into a Knowledge block and prunes stale context; 22.7% token reduction on SWE-bench Lite, no accuracy loss | [PDF](papers/Active_Context_Compression_Autonomous_Memory_Management.pdf) |
 | [AgeMem: Unified Long- and Short-Term Memory for LLM Agents (2026)](https://arxiv.org/abs/2601.01885) | First to unify LTM (add/update/delete) and STM (retrieve/summarize/filter) as tool-based actions via GRPO RL; 7B model achieves +49.59% over no-memory baseline across 5 benchmarks; ICLR 2026 MemAgents Workshop | [PDF](papers/AgeMem_Unified_Long_Short_Term_Memory_LLM_Agents.pdf) |
 | [MSA: Memory Sparse Attention to 100M Tokens (2026)](https://arxiv.org/abs/2603.23516) | End-to-end trainable sparse attention with linear complexity — scales to 100M tokens on 2×A800 GPUs with <9% degradation vs 16K baseline; Memory Interleaving enables multi-hop reasoning across scattered segments | [PDF](papers/MSA_Memory_Sparse_Attention_100M_Tokens.pdf) |
+| [Memory in the LLM Era: Modular Architectures in a Unified Framework (April 2026)](https://arxiv.org/abs/2604.01707) | Decomposes agent memory into 4 modules (extraction, management, storage, retrieval); systematic benchmark comparison of all methods; composite design from existing modules surpasses prior SOTA | [PDF](papers/Memory_LLM_Era_Modular_Architectures_Unified_Framework.pdf) |
 
 ### Tool Use
 
 | Paper | Key Contribution |
 |-------|-----------------|
+| [CCTU: Tool Use under Complex Constraints (2026)](https://arxiv.org/abs/2603.15309) | 200-task benchmark across 12 constraint categories (resource, behavior, toolset, response) with step-level validation; no model exceeds 20% completion; models violate constraints in >50% of cases with limited self-correction | [PDF](papers/CCTU_Tool_Use_Complex_Constraints_Benchmark.pdf) |
 | [Agentic Tool Use in Large Language Models (April 2026)](https://arxiv.org/abs/2604.00835) | Comprehensive framework for understanding tool use in agentic systems — schema understanding, calling conventions, error handling, tool composition patterns |
 | [Open, Reliable, and Collective: A Community-Driven Framework (April 2026)](https://arxiv.org/abs/2604.00137) | OpenTools: standardized tool schemas and lightweight wrappers for plug-and-play use across agent frameworks; intrinsic evaluation suite tracking correctness, robustness, regressions |
 | [The Evolution of Tool Use in LLM Agents (2026)](https://arxiv.org/abs/2603.22862) | Unified survey from single-tool call to multi-tool orchestration — covers reasoning-time planning, training/trajectory construction, safety, resource efficiency, open-environment completeness, and benchmark design (HIT & Harvard) | [PDF](papers/Evolution_of_Tool_Use_LLM_Agents.pdf) |
@@ -608,6 +616,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 
 | Paper | Key Contribution |
 |-------|-----------------|
+| [Signals: Trajectory Sampling and Triage for Agentic Interactions (April 2026)](https://arxiv.org/abs/2604.00356) | Lightweight signal-based taxonomy for sampling informative agent trajectories post-deployment — 82% informativeness vs 54% random; organizes signals across interaction, execution, and environment dimensions; 6.2k HF likes | [PDF](papers/Signals_Trajectory_Sampling_Agentic_Interactions.pdf) |
 | [Agent Psychometrics: Task-Level Performance Prediction (April 2026)](https://arxiv.org/abs/2604.00594) | Shifts evaluation from simple QA to multi-turn agentic assessment; newer benchmarks like SWE-bench Verified and Terminal-Bench test iterative agent behavior with execution feedback |
 | [YC-Bench: Benchmarking AI Agents for Long-Term Planning (April 2026)](https://arxiv.org/abs/2604.01212) | Evaluates whether LLM agents maintain strategic coherence over long horizons — simulated startup over one-year horizon spanning hundreds of turns; tests consistent execution |
 | [When Users Change Their Mind: Evaluating Interruptible Agents (April 2026)](https://arxiv.org/abs/2604.00892) | Tests agent ability to handle user interruptions during mid-task execution — critical requirement for realistic deployment in dynamic environments |
