@@ -132,6 +132,7 @@ All prompts are open — click, copy, use directly.
 | 👥 HR / Talent Development | Talent development and performance — recruitment, onboarding, learning, career development, culture, DEI, engagement, retention (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/hr_talent_development.txt) |
 | 💰 Financial Advisor | Comprehensive wealth management — financial planning, investment strategy, risk management, tax optimization, estate planning, behavioral coaching (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/financial_advisor.txt) |
 | 🔍 SEO Specialist | Technical SEO, content strategy, link authority, SERP features — audit templates, keyword research, E-E-A-T, Core Web Vitals, AI search adaptation (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/seo_specialist.txt) |
+| 🎤 Developer Advocate | DevRel — DX audits, technical content, community building, product feedback loops, SDK adoption, conference talks, time-to-first-success tracking (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/developer_advocate.txt) |
 
 ### Project Management
 
@@ -150,6 +151,7 @@ All prompts are open — click, copy, use directly.
 | Name | Description | Prompt |
 |------|-------------|--------|
 | ⚖️ Legal Analyst | Comprehensive legal research and contract analysis — IRAC methodology, regulatory compliance, litigation risk, IP strategy, M&A due diligence (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/legal_analyst.txt) |
+| 🔒 Compliance Auditor | SOC 2, ISO 27001, HIPAA, PCI-DSS — gap assessment, evidence collection automation, policy templates, audit preparation, continuous compliance (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/compliance_auditor.txt) |
 
 ### Knowledge & Documentation
 
@@ -214,6 +216,7 @@ All prompts are open — click, copy, use directly.
 | ⚛ Meta Prompt | Meta-Expert orchestrates specialist sub-agents to solve complex problems | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/meta_prompt.txt) |
 | 📓 Prompt Creator | Auto-generates high-quality prompts from a brief description | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Prompt%20Creater.md) |
 | 🧪 Eval & Benchmark Architect | Benchmark design, evaluation metrics, rubric development, failure mode analysis, continuous monitoring — regression testing, cost-effective evaluation (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/eval_benchmark_architect.txt) |
+| 🔬 Prompt Engineer | Production prompt engineering — design patterns (CoT/ToT/ReAct), A/B testing, token optimization, multi-model routing, versioning, regression testing (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/prompt_engineer.txt) |
 
 ### Image & Video Generation
 
@@ -483,6 +486,8 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | **Anthropic** | [Harness Design for Long-Running Application Development](https://www.anthropic.com/engineering/harness-design-long-running-apps) (Mar 2026) | Harness Architecture |
 | **Anthropic** | [Building Agents with the Claude Agent SDK](https://claude.com/blog/building-agents-with-the-claude-agent-sdk) | Agent SDK |
 | **Anthropic** | [Eval Awareness in Claude Opus 4.6's BrowseComp Performance](https://www.anthropic.com/engineering/eval-awareness-browsecomp) (Mar 2026) | Agent Evals |
+| **Anthropic** | [Scaling Managed Agents: Decoupling Brain from Hands](https://www.anthropic.com/engineering/managed-agents) (Apr 2026) | Agent Architecture |
+| **OpenAI** | [GPT-5.4 Prompt Guidance](https://developers.openai.com/api/docs/guides/prompt-guidance) (Mar 2026) | Prompting — output contracts, tool persistence, reasoning effort tuning |
 | **OpenAI** | [GPT-4.1 Prompting Guide](https://cookbook.openai.com/examples/gpt4-1_prompting_guide) | Prompting |
 | **OpenAI** | [A Practical Guide to Building Agents](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf) | Agents |
 | **OpenAI** | [Designing Agents to Resist Prompt Injection](https://openai.com/index/designing-agents-to-resist-prompt-injection/) (2026) | Security |
@@ -490,6 +495,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | **Google** | [Agents Companion Whitepaper](https://www.kaggle.com/whitepaper-agent-companion) (2026) | Agents — 76-page production playbook: multi-agent, AgentOps, agentic RAG, evals |
 | **Google** | [Gemini Prompting Best Practices](https://ai.google.dev/docs/prompt_best_practices) | Prompting |
 | **Google** | [Developer's Guide to AI Agent Protocols](https://developers.googleblog.com/developers-guide-to-ai-agent-protocols/) (Mar 2026) | Agent Protocols — MCP, A2A, UCP, AP2, A2UI, AG-UI compared |
+| **Google** | [Building ADK Agents with Skills](https://developers.googleblog.com/developers-guide-to-building-adk-agents-with-skills/) (Apr 2026) | Agent Skills — 4 skill patterns (inline/file/external/generated), progressive disclosure |
 | **OpenAI** | [Codex CLI Prompting Guide](https://developers.openai.com/cookbook/examples/gpt-5/codex_prompting_guide) (Feb 2026) | Agentic Coding |
 | **DeepSeek** | [DeepSeek Prompt Library](https://api-docs.deepseek.com/prompt-library) | Prompting |
 | **xAI** | [Grok Code Prompt Engineering Guide](https://docs.x.ai/docs/guides/grok-code-prompt-engineering) (2026) | Agentic Coding |
@@ -522,6 +528,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [Modular Prompt Optimization (2026)](https://arxiv.org/abs/2601.04055) | Treats prompts as structured objects; optimizes each semantic section independently with local textual gradients | [PDF](papers/Modular_Prompt_Optimization_Section_Local_Textual_Gradients.pdf) |
 | [Causal Prompt Optimization (2026)](https://arxiv.org/abs/2602.01711) | Reframes prompt design as causal estimation — uses Double Machine Learning to isolate prompt effects | [PDF](papers/Causal_Prompt_Optimization.pdf) |
 | [Self-Evolving Memory for Prompt Optimization (2026)](https://arxiv.org/abs/2603.21520) | Memory-augmented APO that stores historical refinement insights and reuses them across iterations | [PDF](papers/Self_Evolving_Memory_Automatic_Prompt_Optimization.pdf) |
+| [Combee: Scaling Prompt Learning for Self-Improving Agents (April 2026)](https://arxiv.org/abs/2604.04247) | Berkeley/Stanford (Stoica, Zou, Gonzalez): scales parallel prompt learning with up to 17x speedup over ACE/GEPA via parallel scans and dynamic batching; evaluated on AppWorld, Terminal-Bench, FiNER | [PDF](papers/Combee_Scaling_Prompt_Learning_Agents.pdf) |
 
 ### Reasoning Techniques
 
@@ -542,6 +549,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | Paper | Key Contribution |
 |-------|-----------------|
 | [Survey of Automatic Prompt Engineering (2025)](https://arxiv.org/abs/2502.11560) | Full overview of discrete / continuous / hybrid prompt optimization |
+| [Beyond the Parameters: ICL to Causal RAG (April 2026)](https://arxiv.org/abs/2604.03174) | Comprehensive survey treating context enrichment as a continuum — from in-context learning through RAG, GraphRAG, to CausalRAG; includes claim-audit framework and cross-paper evidence synthesis | [PDF](papers/Beyond_Parameters_ICL_to_RAG_Survey.pdf) |
 
 ### RAG & Knowledge
 
@@ -551,6 +559,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [Self-RAG (2024)](https://arxiv.org/abs/2310.11511) | Model decides when and how to retrieve |
 | [Agentic RAG Survey (2025)](https://arxiv.org/abs/2501.09136) | Agents embedded in RAG pipelines — dynamic, reasoning-driven retrieval beyond static pipelines |
 | [A-RAG: Agentic RAG via Hierarchical Retrieval (2026)](https://arxiv.org/abs/2602.03442) | Hierarchical retrieval interfaces enabling agents to dynamically navigate multi-level knowledge structures | [PDF](papers/A_RAG_Agentic_Retrieval_Augmented_Generation.pdf) |
+| [Procedural Knowledge at Scale Improves Reasoning (April 2026)](https://arxiv.org/abs/2604.01348) | Meta AI: RAG for reasoning — decomposes trajectories into 32M reusable subquestion-subroutine pairs; retrieves procedural "how-to" knowledge within reasoning traces; +19.2% across math/science/coding | [PDF](papers/Procedural_Knowledge_Reasoning_Memory.pdf) |
 
 ### Agent Reliability
 
@@ -628,12 +637,14 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | Paper | Key Contribution |
 |-------|-----------------|
 | [MOSAIC: Granular Instruction Following Evaluation (2026)](https://arxiv.org/abs/2601.18554) | Modular benchmark with up to 20 application-oriented generation constraints per prompt; finds compliance degrades with constraint count and position (primacy/recency bias) — exposes multi-instruction conflict effects | [PDF](papers/MOSAIC_Instruction_Following_Granular_Evaluation.pdf) |
+| [Rubrics to Tokens: Token-Level Rewards for Instruction Following (April 2026)](https://arxiv.org/abs/2604.02795) | Rubric-based RL with Token-Level Relevance Discriminator — solves credit assignment for instruction following by predicting which tokens satisfy specific constraints; fine-grained optimization | [PDF](papers/Rubrics_to_Tokens_Instruction_Following.pdf) |
 
 ### Multimodal Prompting
 
 | Paper | Key Contribution |
 |-------|-----------------|
 | [Graph-of-Mark: Spatial Reasoning via Visual Prompting (2026)](https://arxiv.org/abs/2603.06663) | Overlays scene graphs onto input images at the pixel level to model object relationships — up to +11 percentage points on VQA and localization across 4 datasets, zero-shot | [PDF](papers/Graph_of_Mark_Spatial_Reasoning_Multimodal_Visual_Prompting.pdf) |
+| [Look Twice: Training-Free Evidence Highlighting in MLLMs (April 2026)](https://arxiv.org/abs/2604.01280) | Inference-time framework exploiting MLLM attention patterns to identify relevant visual regions and text, then re-conditions generation on highlighted evidence — consistent VQA improvements, no training required | [PDF](papers/Look_Twice_Training_Free_Evidence_Highlighting_MLLMs.pdf) |
 
 **Curated reading list:** [The 2025 AI Engineering Reading List — Latent Space](https://www.latent.space/p/2025-papers)
 
