@@ -83,6 +83,7 @@ All prompts are open — click, copy, use directly.
 | 🤖 Agentic Coder | Plan-first coding agent — security checklist, test discipline, PR summary format (2025) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/agentic_coder.txt) |
 | 🔍 Code Reviewer | Security-focused code reviewer — OWASP Top 10, severity grading, fix examples (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/code_reviewer_security.txt) |
 | 🕸 Multi-Agent Orchestrator | Central dispatch agent — task decomposition, parallel delegation, state tracking, error recovery (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/multi_agent_orchestrator.txt) |
+| 🧱 Agent Harness Designer | System prompt for designing reliable agent runtimes — tool minimization, approval gates, memory/compaction, rollback, observability, evals; derived from OpenAI/Anthropic harness guidance (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/agent_harness_designer.txt) |
 | 🗄 SQL Assistant | Senior DB engineer — query writing (CTE-first), optimization (EXPLAIN-driven), schema design, multi-dialect (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/sql_assistant.txt) |
 | 🐛 Debugging Agent | Systematic bug hunter — reproduce → observe → hypothesize → test → localize → fix; works for any language (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/debugging_agent.txt) |
 | 🏗 System Design | Staff-level architect — clarifies requirements first, capacity estimation, component trade-offs, failure modes (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/system_design.txt) |
@@ -208,6 +209,7 @@ All prompts are open — click, copy, use directly.
 | Name | Description | Prompt |
 |------|-------------|--------|
 | 🛡 Content Moderator | CoT-based content moderation — policy-driven ALLOW/BLOCK classification with thinking trace and structured verdict (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/content_moderator.txt) |
+| 🧱 Prompt Injection Guardian | Security-first browsing/file agent prompt — treats external content as untrusted, enforces source tracing, confirmation gates, least privilege; derived from OpenAI's 2026 prompt injection guidance | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/prompt_injection_guardian.txt) |
 | 🔐 Security Researcher | Threat modeling (STRIDE), vulnerability assessment, attack surface enumeration, exploit analysis, defense recommendations (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/security_researcher.txt) |
 | ✅ QA Agent | Critical quality assurance — edge cases, error handling, security (OWASP), performance, integration, observability testing (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/qa_agent.txt) |
 | ♿ Accessibility Auditor | WCAG 2.2 AA auditor — screen reader testing, keyboard navigation, ARIA patterns, assistive tech, CI/CD integration, legal compliance (ADA/EAA/508) (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/accessibility_auditor.txt) |
@@ -410,6 +412,7 @@ Context engineering is the practice of designing *what* goes into an LLM's conte
 | [**CrewAI**](https://docs.crewai.com/) | CrewAI | Role-based multi-agent teams |
 | [**Magentic-One**](https://arxiv.org/abs/2411.04468) | Microsoft | Multi-capability agents (web + file + code + terminal) |
 | [**OpenAI Agents SDK**](https://openai.github.io/openai-agents-python/) | OpenAI | OpenAI-native orchestration (Mar 2025) |
+| [**GitHub Agentic Workflows (gh-aw)**](https://github.com/github/gh-aw) | GitHub | Security-first agentic workflows for GitHub Actions — Markdown workflow specs, sandboxed execution, structured outputs, approval-aware automation (2026) ![](https://img.shields.io/github/stars/github/gh-aw?style=flat-square) |
 | [**Google ADK**](https://google.github.io/adk-docs/) | Google | Gemini-native development (Apr 2025) |
 | [**Claude Code**](https://docs.anthropic.com/en/docs/claude-code) | Anthropic | Agentic coding with Agent Teams (Feb 2026) |
 | [**karpathy/autoresearch**](https://github.com/karpathy/autoresearch) | Karpathy | 630-line self-improving agent — reads its own training code, forms hypotheses, runs experiments overnight (Mar 2026) ![](https://img.shields.io/github/stars/karpathy/autoresearch?style=flat-square) |
@@ -505,9 +508,11 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | **OpenAI** | [GPT-5.2 Prompting Guide](https://cookbook.openai.com/examples/gpt-5/gpt-5-2_prompting_guide) (Dec 2025) | Prompting — enterprise/agentic workloads, structured reasoning, tool grounding |
 | **OpenAI** | [Codex-Max Prompting Guide](https://cookbook.openai.com/examples/gpt-5/gpt-5-1-codex-max_prompting_guide) (Feb 2026) | Agentic Coding — autonomy/persistence tuning, reasoning effort levels, phase parameter |
 | **OpenAI** | [Realtime Prompting Guide](https://developers.openai.com/cookbook/examples/realtime_prompting_guide) (Feb 2026) | Voice/Realtime — system prompt structure for gpt-realtime speech-to-speech model |
+| **OpenAI** | [From Model to Agent: Equipping the Responses API with a Computer Environment](https://openai.com/index/equipping-the-responses-api-with-computer-use/) (Mar 2026) | Agent Infrastructure / Computer Use |
 | **OpenAI** | [GPT-4.1 Prompting Guide](https://cookbook.openai.com/examples/gpt4-1_prompting_guide) | Prompting |
 | **OpenAI** | [A Practical Guide to Building Agents](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf) | Agents |
 | **OpenAI** | [Designing Agents to Resist Prompt Injection](https://openai.com/index/designing-agents-to-resist-prompt-injection/) (2026) | Security |
+| **OpenAI** | [Keeping Your Data Safe When an AI Agent Clicks a Link](https://openai.com/index/ai-agent-link-safety/) (Feb 2026) | Security / Safe Browsing |
 | **Google** | [Build with Gemini Deep Research](https://blog.google/innovation-and-ai/technology/developers-tools/deep-research-agent-gemini-api/) (2026) | Research Agents |
 | **Google** | [Agents Companion Whitepaper](https://www.kaggle.com/whitepaper-agent-companion) (2026) | Agents — 76-page production playbook: multi-agent, AgentOps, agentic RAG, evals |
 | **Google** | [Gemini Prompting Best Practices](https://ai.google.dev/docs/prompt_best_practices) | Prompting |
@@ -628,6 +633,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [Internal Safety Collapse in Frontier LLMs (2026)](https://arxiv.org/abs/2603.23509) | Introduces TVD framework and ISC-Bench — frontier models fail at 95.3% rate on dual-use professional tasks where capability and harm co-occur; advanced models are *more* vulnerable than earlier LLMs because their capabilities become liabilities | [PDF](papers/Internal_Safety_Collapse_Frontier_LLMs.pdf) |
 | [Jailbreaking LLMs & VLMs: Mechanisms, Evaluation, and Unified Defense (2026)](https://arxiv.org/abs/2601.03594) | First unified survey spanning both LLM and VLM jailbreak — covers template, in-context, RL, and multimodal attack types; proposes 3-layer defense framework (perception / generation / parameter layers) | [PDF](papers/Jailbreaking_LLMs_VLMs_Unified_Survey.pdf) |
 | [Attack and Defense Landscape of Agentic AI (2026)](https://arxiv.org/abs/2603.11088) | Dawn Song (UC Berkeley) et al. — first complete security survey for agentic AI systems (LLM + external tools/components); establishes threat model covering full attack surface and defense mechanisms; USENIX Security 2026 | [PDF](papers/Attack_Defense_Landscape_Agentic_AI.pdf) |
+| [Architecting Secure AI Agents: System-Level Defenses Against Indirect Prompt Injection (March 2026)](https://arxiv.org/abs/2603.30016) | Greshake/Xiao/Suh et al. — security architecture paper arguing prompt injection must be handled at the system layer (permissioning, provenance, policy isolation), not by model alignment alone | [PDF](papers/Architecting_Secure_AI_Agents_Indirect_Prompt_Injection.pdf) |
 
 ### Context & Memory
 
@@ -637,6 +643,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [AgeMem: Unified Long- and Short-Term Memory for LLM Agents (2026)](https://arxiv.org/abs/2601.01885) | First to unify LTM (add/update/delete) and STM (retrieve/summarize/filter) as tool-based actions via GRPO RL; 7B model achieves +49.59% over no-memory baseline across 5 benchmarks; ICLR 2026 MemAgents Workshop | [PDF](papers/AgeMem_Unified_Long_Short_Term_Memory_LLM_Agents.pdf) |
 | [MSA: Memory Sparse Attention to 100M Tokens (2026)](https://arxiv.org/abs/2603.23516) | End-to-end trainable sparse attention with linear complexity — scales to 100M tokens on 2×A800 GPUs with <9% degradation vs 16K baseline; Memory Interleaving enables multi-hop reasoning across scattered segments | [PDF](papers/MSA_Memory_Sparse_Attention_100M_Tokens.pdf) |
 | [Memory in the LLM Era: Modular Architectures in a Unified Framework (April 2026)](https://arxiv.org/abs/2604.01707) | Decomposes agent memory into 4 modules (extraction, management, storage, retrieval); systematic benchmark comparison of all methods; composite design from existing modules surpasses prior SOTA | [PDF](papers/Memory_LLM_Era_Modular_Architectures_Unified_Framework.pdf) |
+| [ContextBench: A Benchmark for Context Retrieval in Coding Agents (2026)](https://arxiv.org/abs/2602.05892) | First benchmark focused on whether coding agents retrieve the right repository context before editing — measures relevance, latency, and downstream task success under realistic codebase navigation pressure | [PDF](papers/ContextBench_Context_Retrieval_Coding_Agents.pdf) |
 | [Prompt Compression in the Wild (April 2026)](https://arxiv.org/abs/2604.02985) | First large-scale empirical study of prompt compression trade-offs in production — 30K queries across multiple LLMs and 3 GPU classes; LLMLingua achieves up to 18% end-to-end speedup when prompt/ratio/hardware match; ECIR 2026; includes open-source profiler for latency break-even prediction | [PDF](papers/Prompt_Compression_Wild.pdf) |
 
 ### Tool Use
