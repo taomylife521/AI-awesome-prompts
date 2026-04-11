@@ -423,6 +423,7 @@ Context engineering is the practice of designing *what* goes into an LLM's conte
 | [**Portia AI**](https://github.com/portiaAI) | Portia Labs | Open-source predictable agent framework — 1000+ cloud/MCP tools, built-in auth, auditability and security focus for enterprise workflows (2026) ![](https://img.shields.io/github/stars/portiaAI/portia?style=flat-square) |
 | [**Paperclip**](https://github.com/paperclipai/paperclip) | Paperclip AI | Zero-human-company multi-agent orchestration — org charts, budgets, goal management, CEO→Manager→Worker delegation; 48k stars in 3 weeks (Mar 2026) ![](https://img.shields.io/github/stars/paperclipai/paperclip?style=flat-square) |
 | [**Goose**](https://github.com/block/goose) | Block | Local AI engineering agent — code, debug, install deps, execute, orchestrate workflows; MCP integration (3000+ tools); Apache 2.0; AAIF founding project (2026) ![](https://img.shields.io/github/stars/block/goose?style=flat-square) |
+| [**Gemini CLI**](https://github.com/google-gemini/gemini-cli) | Google | Open-source terminal AI agent — ReAct loop, MCP support, 1M context window, Gemini 2.5 Pro/3 Flash/3.1 Pro; free tier (60 req/min); Apache 2.0; v2.0 Apr 2026 ![](https://img.shields.io/github/stars/google-gemini/gemini-cli?style=flat-square) |
 
 > **Feb 2026 multi-agent wave:** In a two-week window, Claude Code Agent Teams, Windsurf parallel agents (5), Grok Build (8 agents), Codex CLI, and Devin parallel sessions all shipped simultaneously — multi-agent is now the baseline, not a feature.
 
@@ -499,13 +500,18 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | **Anthropic** | [Building Agents with the Claude Agent SDK](https://claude.com/blog/building-agents-with-the-claude-agent-sdk) | Agent SDK |
 | **Anthropic** | [Eval Awareness in Claude Opus 4.6's BrowseComp Performance](https://www.anthropic.com/engineering/eval-awareness-browsecomp) (Mar 2026) | Agent Evals |
 | **Anthropic** | [Scaling Managed Agents: Decoupling Brain from Hands](https://www.anthropic.com/engineering/managed-agents) (Apr 2026) | Agent Architecture |
+| **Anthropic** | [Claude Code Auto Mode: A Safer Way to Skip Permissions](https://www.anthropic.com/engineering/claude-code-auto-mode) (Mar 2026) | Agentic Coding / Safety — two-layer model-based classifier for read vs write approvals |
 | **OpenAI** | [GPT-5.4 Prompt Guidance](https://developers.openai.com/api/docs/guides/prompt-guidance) (Mar 2026) | Prompting — output contracts, tool persistence, reasoning effort tuning |
+| **OpenAI** | [GPT-5.2 Prompting Guide](https://cookbook.openai.com/examples/gpt-5/gpt-5-2_prompting_guide) (Dec 2025) | Prompting — enterprise/agentic workloads, structured reasoning, tool grounding |
+| **OpenAI** | [Codex-Max Prompting Guide](https://cookbook.openai.com/examples/gpt-5/gpt-5-1-codex-max_prompting_guide) (Feb 2026) | Agentic Coding — autonomy/persistence tuning, reasoning effort levels, phase parameter |
+| **OpenAI** | [Realtime Prompting Guide](https://developers.openai.com/cookbook/examples/realtime_prompting_guide) (Feb 2026) | Voice/Realtime — system prompt structure for gpt-realtime speech-to-speech model |
 | **OpenAI** | [GPT-4.1 Prompting Guide](https://cookbook.openai.com/examples/gpt4-1_prompting_guide) | Prompting |
 | **OpenAI** | [A Practical Guide to Building Agents](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf) | Agents |
 | **OpenAI** | [Designing Agents to Resist Prompt Injection](https://openai.com/index/designing-agents-to-resist-prompt-injection/) (2026) | Security |
 | **Google** | [Build with Gemini Deep Research](https://blog.google/innovation-and-ai/technology/developers-tools/deep-research-agent-gemini-api/) (2026) | Research Agents |
 | **Google** | [Agents Companion Whitepaper](https://www.kaggle.com/whitepaper-agent-companion) (2026) | Agents — 76-page production playbook: multi-agent, AgentOps, agentic RAG, evals |
 | **Google** | [Gemini Prompting Best Practices](https://ai.google.dev/docs/prompt_best_practices) | Prompting |
+| **Google** | [Gemini 3 Prompting Guide](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/start/gemini-3-prompting-guide) (2026) | Prompting — thinking levels (LOW/HIGH), split-step verification, grounding, persona management |
 | **Google** | [Developer's Guide to AI Agent Protocols](https://developers.googleblog.com/developers-guide-to-ai-agent-protocols/) (Mar 2026) | Agent Protocols — MCP, A2A, UCP, AP2, A2UI, AG-UI compared |
 | **Google** | [Building ADK Agents with Skills](https://developers.googleblog.com/developers-guide-to-building-adk-agents-with-skills/) (Apr 2026) | Agent Skills — 4 skill patterns (inline/file/external/generated), progressive disclosure |
 | **OpenAI** | [Codex CLI Prompting Guide](https://developers.openai.com/cookbook/examples/gpt-5/codex_prompting_guide) (Feb 2026) | Agentic Coding |
