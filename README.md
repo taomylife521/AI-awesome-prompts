@@ -53,6 +53,7 @@ This repo covers both. The engineering camp gets more space.
   - [Meta & Prompt Engineering](#meta--prompt-engineering)
   - [Image & Video Generation](#image--video-generation)
   - [Creative & Role-play](#creative--role-play)
+  - [Game Development](#game-development)
   - [Translation](#translation)
   - [Legacy (2023 era)](#legacy-2023-era--kept-for-reference)
 - [🔬 Frameworks](#frameworks) — the engineering camp
@@ -93,6 +94,8 @@ All prompts are open — click, copy, use directly.
 | ⚡ Claude Artifacts | System prompt for generating rich Claude Artifacts (UI, interactive apps, code) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/claude_artifacts_prompt.md) |
 | 💻 Professional Coder | Expert coding assistant — auto programming, project generation, any language | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/%F0%9F%92%BBProfessional%20Coder.md) |
 | 🖥 Frontend Developer | React/Vue/Angular expert — component architecture, Core Web Vitals, WCAG 2.1, responsive design, TypeScript, performance budgets (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/frontend_developer.txt) |
+| 📲 Mobile App Builder | Native iOS (Swift/SwiftUI) + Android (Kotlin/Jetpack Compose) + cross-platform (React Native/Flutter) — offline-first, biometric auth, push notifications, app store deployment (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/mobile_app_builder.txt) |
+| ⛓️ Solidity Smart Contract Engineer | Security-first Solidity — checks-effects-interactions, ERC-20/721/1155, UUPS/diamond proxies, DeFi primitives, gas optimization, Foundry fuzz/invariant testing, L2 deployment (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/solidity_smart_contract_engineer.txt) |
 
 ### DevOps & SRE
 
@@ -235,6 +238,12 @@ All prompts are open — click, copy, use directly.
 |------|-------------|--------|
 | 🧛 Vampire: The Masquerade | Deep lore expert for Vampire: The Masquerade tabletop RPG | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Vampire%20The%20Masquerade%20Lore%20Expert.md) |
 | 💘 Beauty D&D | Text adventure romance simulator with DALL-E image generation (Chinese) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Beauty_DND.txt) |
+
+### Game Development
+
+| Name | Description | Prompt |
+|------|-------------|--------|
+| 🎮 Game Designer | Senior systems & mechanics designer — GDD authorship, core gameplay loops, economy balancing (Monte Carlo), player onboarding, behavioral economics, systemic emergence (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/game_designer.txt) |
 
 ### Translation
 
@@ -532,6 +541,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [Causal Prompt Optimization (2026)](https://arxiv.org/abs/2602.01711) | Reframes prompt design as causal estimation — uses Double Machine Learning to isolate prompt effects | [PDF](papers/Causal_Prompt_Optimization.pdf) |
 | [Self-Evolving Memory for Prompt Optimization (2026)](https://arxiv.org/abs/2603.21520) | Memory-augmented APO that stores historical refinement insights and reuses them across iterations | [PDF](papers/Self_Evolving_Memory_Automatic_Prompt_Optimization.pdf) |
 | [Combee: Scaling Prompt Learning for Self-Improving Agents (April 2026)](https://arxiv.org/abs/2604.04247) | Berkeley/Stanford (Stoica, Zou, Gonzalez): scales parallel prompt learning with up to 17x speedup over ACE/GEPA via parallel scans and dynamic batching; evaluated on AppWorld, Terminal-Bench, FiNER | [PDF](papers/Combee_Scaling_Prompt_Learning_Agents.pdf) |
+| [Self-Distillation Improves Code Generation (April 2026)](https://arxiv.org/abs/2604.01193) | Apple: embarrassingly simple self-distillation (SSD) — sample from model, fine-tune on raw unverified samples via cross-entropy; no reward model, no verifier, no RL; Qwen3-30B 42.4% → 55.3% pass@1 on LiveCodeBench v6; gains concentrate on hard problems; open source | [PDF](papers/Self_Distillation_Code_Generation.pdf) |
 
 ### Reasoning Techniques
 
@@ -548,6 +558,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [Reasoning Shift: How Context Silently Shortens LLM Reasoning (April 2026)](https://arxiv.org/abs/2604.01161) | Contextual changes cause reasoning models to compress traces by up to 50%, reducing self-verification; simple problems unaffected but harder tasks suffer — critical finding for agent multi-turn reasoning | [PDF](papers/Reasoning_Shift_Context_Shortens_LLM_Reasoning.pdf) |
 | [Rethinking Generalization in Reasoning SFT (April 2026)](https://arxiv.org/abs/2604.06628) | Challenges "SFT memorizes, RL generalizes" — reasoning SFT with long CoT does generalize cross-domain, conditional on optimization dynamics; discovers safety-reasoning tradeoff (reasoning improves but safety degrades); 152 HF likes | [PDF](papers/Rethinking_Generalization_Reasoning_SFT.pdf) |
 | [RAGEN-2: Reasoning Collapse in Agentic RL (April 2026)](https://arxiv.org/abs/2604.06268) | Identifies "template collapse" in agentic RL — models rely on fixed input-agnostic templates despite stable entropy; proposes mutual information (not entropy) as diagnostic for reasoning quality; Northwestern/Stanford/Microsoft; 49 HF likes | [PDF](papers/RAGEN2_Reasoning_Collapse_Agentic_RL.pdf) |
+| [Optimality of LLMs on Planning Problems (April 2026)](https://arxiv.org/abs/2604.02910) | Google DeepMind: first systematic study of whether LLMs produce *optimal* plans (not just valid); reasoning-enhanced LLMs significantly outperform classical satisficing planners (LAMA) in complex multi-goal configurations | [PDF](papers/LLM_Optimality_Planning_Problems.pdf) |
 
 ### Surveys
 
@@ -566,6 +577,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [Agentic RAG Survey (2025)](https://arxiv.org/abs/2501.09136) | Agents embedded in RAG pipelines — dynamic, reasoning-driven retrieval beyond static pipelines |
 | [A-RAG: Agentic RAG via Hierarchical Retrieval (2026)](https://arxiv.org/abs/2602.03442) | Hierarchical retrieval interfaces enabling agents to dynamically navigate multi-level knowledge structures | [PDF](papers/A_RAG_Agentic_Retrieval_Augmented_Generation.pdf) |
 | [Procedural Knowledge at Scale Improves Reasoning (April 2026)](https://arxiv.org/abs/2604.01348) | Meta AI: RAG for reasoning — decomposes trajectories into 32M reusable subquestion-subroutine pairs; retrieves procedural "how-to" knowledge within reasoning traces; +19.2% across math/science/coding | [PDF](papers/Procedural_Knowledge_Reasoning_Memory.pdf) |
+| [SoK: Agentic RAG — Taxonomy, Architectures, Evaluation (2026)](https://arxiv.org/abs/2603.07379) | First Systematization of Knowledge for Agentic RAG — formalizes retrieval-generation loops as finite-horizon POMDPs; multi-dimensional taxonomy covering planning strategies, retrieval orchestration, memory paradigms, and tool coordination | [PDF](papers/SoK_Agentic_RAG.pdf) |
 
 ### Agent Reliability
 
@@ -573,6 +585,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 |-------|-----------------|
 | [Towards a Science of AI Agent Reliability (2026)](https://arxiv.org/abs/2602.16666) | 12 concrete reliability metrics across consistency, robustness, predictability, safety — capability gains ≠ reliability gains | [PDF](papers/Towards_Science_of_AI_Agent_Reliability.pdf) |
 | [Agentic Reasoning for LLMs (2026)](https://arxiv.org/abs/2601.12538) | Comprehensive survey: 3-layer framework (single-agent capabilities → self-evolving agents → multi-agent coordination); 202 Hugging Face likes | [PDF](papers/Agentic_Reasoning_for_Large_Language_Models.pdf) |
+| [Why Do Web Agents Fail? A Hierarchical Planning Perspective (2026)](https://arxiv.org/abs/2603.14248) | Decomposes web agent behavior into high-level planning, low-level grounding, and replanning — PDDL-structured plans outperform NL plans but grounding remains the dominant bottleneck; a single round of exploratory replanning substantially improves task success | [PDF](papers/Web_Agents_Hierarchical_Planning.pdf) |
 
 ### Multi-Agent Coordination
 
@@ -618,6 +631,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [AgeMem: Unified Long- and Short-Term Memory for LLM Agents (2026)](https://arxiv.org/abs/2601.01885) | First to unify LTM (add/update/delete) and STM (retrieve/summarize/filter) as tool-based actions via GRPO RL; 7B model achieves +49.59% over no-memory baseline across 5 benchmarks; ICLR 2026 MemAgents Workshop | [PDF](papers/AgeMem_Unified_Long_Short_Term_Memory_LLM_Agents.pdf) |
 | [MSA: Memory Sparse Attention to 100M Tokens (2026)](https://arxiv.org/abs/2603.23516) | End-to-end trainable sparse attention with linear complexity — scales to 100M tokens on 2×A800 GPUs with <9% degradation vs 16K baseline; Memory Interleaving enables multi-hop reasoning across scattered segments | [PDF](papers/MSA_Memory_Sparse_Attention_100M_Tokens.pdf) |
 | [Memory in the LLM Era: Modular Architectures in a Unified Framework (April 2026)](https://arxiv.org/abs/2604.01707) | Decomposes agent memory into 4 modules (extraction, management, storage, retrieval); systematic benchmark comparison of all methods; composite design from existing modules surpasses prior SOTA | [PDF](papers/Memory_LLM_Era_Modular_Architectures_Unified_Framework.pdf) |
+| [Prompt Compression in the Wild (April 2026)](https://arxiv.org/abs/2604.02985) | First large-scale empirical study of prompt compression trade-offs in production — 30K queries across multiple LLMs and 3 GPU classes; LLMLingua achieves up to 18% end-to-end speedup when prompt/ratio/hardware match; ECIR 2026; includes open-source profiler for latency break-even prediction | [PDF](papers/Prompt_Compression_Wild.pdf) |
 
 ### Tool Use
 
