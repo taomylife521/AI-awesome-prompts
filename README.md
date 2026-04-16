@@ -223,6 +223,7 @@ All prompts are open — click, copy, use directly.
 | ✅ QA Agent | Critical quality assurance — edge cases, error handling, security (OWASP), performance, integration, observability testing (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/qa_agent.txt) |
 | ♿ Accessibility Auditor | WCAG 2.2 AA auditor — screen reader testing, keyboard navigation, ARIA patterns, assistive tech, CI/CD integration, legal compliance (ADA/EAA/508) (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/accessibility_auditor.txt) |
 | 🎯 Threat Detection Engineer | SOC detection engineering — Sigma rules, SIEM (Splunk/Sentinel/Elastic), MITRE ATT&CK coverage mapping, threat hunting, detection-as-code CI/CD (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/threat_detection_engineer.txt) |
+| 🎯 Goal Drift Auditor | Prompt for stress-testing system prompts against multi-turn value-conflict attacks — privacy, security, boundaries, compliance; based on ICLR 2026 agent-drift research (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/goal_drift_auditor.txt) |
 
 ### Meta & Prompt Engineering
 
@@ -241,6 +242,7 @@ All prompts are open — click, copy, use directly.
 | 🛂 Agent Governance Orchestrator | Prompt for defining ownership, delegation, authority, approvals, and audit trails across multiple agents — governance-first orchestration design (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/agent_governance_orchestrator.txt) |
 | 🛡 Trustworthy Agent Reviewer | Prompt for reviewing agent systems across control, ambiguity handling, security, transparency, and privacy — based on Anthropic's 2026 trustworthy-agent guidance | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/trustworthy_agent_reviewer.txt) |
 | 🔬 Prompt Engineer | Production prompt engineering — design patterns (CoT/ToT/ReAct), A/B testing, token optimization, multi-model routing, versioning, regression testing (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/prompt_engineer.txt) |
+| 🔌 MCP Server Architect | Prompt for designing secure, interoperable Model Context Protocol servers — flat schemas, error contracts, transport guidance, testing strategy (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/mcp_server_architect.txt) |
 
 ### Image & Video Generation
 
@@ -326,6 +328,7 @@ Probe LLM systems for vulnerabilities before attackers do.
 | [**OpenAI: Prompt Injection Defense**](https://openai.com/index/designing-agents-to-resist-prompt-injection/) | — | Official OpenAI guide on designing agents to resist prompt injection — browser agents, defense principles (2026). |
 | [**The Promptware Kill Chain**](https://arxiv.org/abs/2601.09625) | — | Bruce Schneier (Harvard/Lawfare): reframes prompt injection as a 7-stage malware kill chain; 21/36 documented attacks already traverse 4+ stages. Featured at Black Hat 2026. | [PDF](papers/Promptware_Kill_Chain_Prompt_Injections_as_Malware.pdf) |
 | [**Microsoft Agent Governance Toolkit**](https://github.com/microsoft/agent-governance-toolkit) | ![](https://img.shields.io/github/stars/microsoft/agent-governance-toolkit?style=flat-square) | 7 packages (Python/Rust/TS/Go/.NET) — policy enforcement (<0.1ms), zero-trust agent identity (Ed25519 + SPIFFE), sandboxed execution; covers all OWASP Agentic Top 10; adapters for LangChain/CrewAI/ADK/OpenAI Agents SDK (Apr 2026) |
+| [**agent-drift**](https://github.com/jhammant/agent-drift) | ![](https://img.shields.io/github/stars/jhammant/agent-drift?style=flat-square) | Stress-test agents for goal drift and system-prompt violations across 6 value dimensions — multi-turn escalation, LLM-as-judge, interactive HTML reports; inspired by ICLR 2026 workshop paper (Apr 2026) |
 
 ### Eval & Observability
 
@@ -444,6 +447,7 @@ Context engineering is the practice of designing *what* goes into an LLM's conte
 | [**Paperclip**](https://github.com/paperclipai/paperclip) | Paperclip AI | Zero-human-company multi-agent orchestration — org charts, budgets, goal management, CEO→Manager→Worker delegation; 48k stars in 3 weeks (Mar 2026) ![](https://img.shields.io/github/stars/paperclipai/paperclip?style=flat-square) |
 | [**Goose**](https://github.com/block/goose) | Block | Local AI engineering agent — code, debug, install deps, execute, orchestrate workflows; MCP integration (3000+ tools); Apache 2.0; AAIF founding project (2026) ![](https://img.shields.io/github/stars/block/goose?style=flat-square) |
 | [**Gemini CLI**](https://github.com/google-gemini/gemini-cli) | Google | Open-source terminal AI agent — ReAct loop, MCP support, 1M context window, Gemini 2.5 Pro/3 Flash/3.1 Pro; free tier (60 req/min); Apache 2.0; v2.0 Apr 2026 ![](https://img.shields.io/github/stars/google-gemini/gemini-cli?style=flat-square) |
+| [**oh-my-codex**](https://github.com/Yeachan-Heo/oh-my-codex) | Yeachan Heo | Workflow and plugin layer for coding agents — hooks, agent teams, HUDs, parallel multi-agent execution, notification routing; 23k+ stars (2026) ![](https://img.shields.io/github/stars/Yeachan-Heo/oh-my-codex?style=flat-square) |
 
 > **Feb 2026 multi-agent wave:** In a two-week window, Claude Code Agent Teams, Windsurf parallel agents (5), Grok Build (8 agents), Codex CLI, and Devin parallel sessions all shipped simultaneously — multi-agent is now the baseline, not a feature.
 
@@ -597,6 +601,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [Survey of Automatic Prompt Engineering (2025)](https://arxiv.org/abs/2502.11560) | Full overview of discrete / continuous / hybrid prompt optimization |
 | [Externalization in LLM Agents: Memory, Skills, Protocols, Harness (April 2026)](https://arxiv.org/abs/2604.08224) | Comprehensive survey unifying memory, skills, protocols, and harness engineering as four forms of "cognitive externalization" — traces progression from weights → context → harness using cognitive artifact theory; Shanghai Jiao Tong / UCL | [PDF](papers/Externalization_LLM_Agents_Unified_Review.pdf) |
 | [Beyond the Parameters: ICL to Causal RAG (April 2026)](https://arxiv.org/abs/2604.03174) | Comprehensive survey treating context enrichment as a continuum — from in-context learning through RAG, GraphRAG, to CausalRAG; includes claim-audit framework and cross-paper evidence synthesis | [PDF](papers/Beyond_Parameters_ICL_to_RAG_Survey.pdf) |
+| [Credit Assignment in Reinforcement Learning for Large Language Models (April 2026)](https://arxiv.org/abs/2604.09459) | Comprehensive survey of credit assignment methods for LLM RL (reasoning + agentic) — covers 47 papers from Jan 2024 to Apr 2026; traces shift from reasoning-focused to agentic/multi-agent CA methods | [PDF](papers/Credit_Assignment_RL_for_Large_Language_Models.pdf) |
 
 ### RAG & Knowledge
 
@@ -654,6 +659,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [Jailbreaking LLMs & VLMs: Mechanisms, Evaluation, and Unified Defense (2026)](https://arxiv.org/abs/2601.03594) | First unified survey spanning both LLM and VLM jailbreak — covers template, in-context, RL, and multimodal attack types; proposes 3-layer defense framework (perception / generation / parameter layers) | [PDF](papers/Jailbreaking_LLMs_VLMs_Unified_Survey.pdf) |
 | [Attack and Defense Landscape of Agentic AI (2026)](https://arxiv.org/abs/2603.11088) | Dawn Song (UC Berkeley) et al. — first complete security survey for agentic AI systems (LLM + external tools/components); establishes threat model covering full attack surface and defense mechanisms; USENIX Security 2026 | [PDF](papers/Attack_Defense_Landscape_Agentic_AI.pdf) |
 | [Architecting Secure AI Agents: System-Level Defenses Against Indirect Prompt Injection (March 2026)](https://arxiv.org/abs/2603.30016) | Greshake/Xiao/Suh et al. — security architecture paper arguing prompt injection must be handled at the system layer (permissioning, provenance, policy isolation), not by model alignment alone | [PDF](papers/Architecting_Secure_AI_Agents_Indirect_Prompt_Injection.pdf) |
+| [Parallax: Why AI Agents That Think Must Never Act (April 2026)](https://arxiv.org/abs/2604.12986) | Argues that prompt-based safety is architecturally insufficient for agents with execution capability; introduces Parallax, a plan-then-execute separation architecture with formal safety guarantees | [PDF](papers/Parallax_Why_AI_Agents_That_Think_Must_Never_Act.pdf) |
 
 ### Context & Memory
 
@@ -665,6 +671,8 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [Memory in the LLM Era: Modular Architectures in a Unified Framework (April 2026)](https://arxiv.org/abs/2604.01707) | Decomposes agent memory into 4 modules (extraction, management, storage, retrieval); systematic benchmark comparison of all methods; composite design from existing modules surpasses prior SOTA | [PDF](papers/Memory_LLM_Era_Modular_Architectures_Unified_Framework.pdf) |
 | [ContextBench: A Benchmark for Context Retrieval in Coding Agents (2026)](https://arxiv.org/abs/2602.05892) | First benchmark focused on whether coding agents retrieve the right repository context before editing — measures relevance, latency, and downstream task success under realistic codebase navigation pressure | [PDF](papers/ContextBench_Context_Retrieval_Coding_Agents.pdf) |
 | [Prompt Compression in the Wild (April 2026)](https://arxiv.org/abs/2604.02985) | First large-scale empirical study of prompt compression trade-offs in production — 30K queries across multiple LLMs and 3 GPU classes; LLMLingua achieves up to 18% end-to-end speedup when prompt/ratio/hardware match; ECIR 2026; includes open-source profiler for latency break-even prediction | [PDF](papers/Prompt_Compression_Wild.pdf) |
+| [Thought-Retriever: Don't Just Retrieve Raw Data, Retrieve Thoughts for Memory-Augmented Agentic Systems (April 2026)](https://arxiv.org/abs/2604.12231) | Memory mechanism that retrieves compressed reasoning "thoughts" rather than raw context — enables more efficient and reasoning-aware memory for long-horizon agents | [PDF](papers/Thought_Retriever_Memory_Augmented_Agentic_Systems.pdf) |
+| [GAM: Hierarchical Graph-based Agentic Memory for LLM Agents (April 2026)](https://arxiv.org/abs/2604.12285) | Hierarchical graph-structured memory with role-aware modulation and temporal/confidence weighting; training-free, evaluated across multiple model scales | [PDF](papers/GAM_Hierarchical_Graph_Based_Agentic_Memory.pdf) |
 
 ### Tool Use
 
