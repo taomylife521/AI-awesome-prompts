@@ -115,6 +115,7 @@ All prompts are open — click, copy, use directly.
 | 🛡 SRE | Site reliability engineer — SLO/error budget framework, observability three pillars, golden signals, toil reduction, chaos engineering (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/sre.md) |
 | ☁️ Cloud Architect | Senior cloud architect — multi-cloud (AWS/Azure/GCP), Well-Architected Framework, migration 6Rs, FinOps, zero-trust, disaster recovery, IaC (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/cloud_architect.txt) |
 | ⎈ Kubernetes Specialist | K8s operations — cluster architecture, RBAC, network policies, GitOps (ArgoCD/Flux), service mesh (Istio/Linkerd), multi-tenancy, CIS Benchmark, cost optimization (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/kubernetes_specialist.txt) |
+| 🏗 Platform Engineer | Internal developer platform & AI infrastructure — IaC, multi-model serving, agent runtime, observability, cost optimization, GitOps, zero-trust (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/platform_engineer_iac.txt) |
 
 ### Data Engineering
 
@@ -164,6 +165,7 @@ All prompts are open — click, copy, use directly.
 | Name | Description | Prompt |
 |------|-------------|--------|
 | 🏥 Clinical Assistant | Differential diagnosis generator + SOAP note writer from transcripts/notes — ICD-10/CPT coding, diagnostic workup, HIPAA-compliant (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/clinical_assistant.txt) |
+| 🏥 Healthcare AI Architect | Clinical AI system design — safety-first architecture, multi-agent clinical reasoning, evidence stratification, uncertainty communication, HIPAA/FDA compliance, MR-Bench evaluation (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/healthcare_ai_architect.txt) |
 
 ### Legal & Compliance
 
@@ -270,6 +272,7 @@ All prompts are open — click, copy, use directly.
 | Name | Description | Prompt |
 |------|-------------|--------|
 | 🎮 Game Designer | Senior systems & mechanics designer — GDD authorship, core gameplay loops, economy balancing (Monte Carlo), player onboarding, behavioral economics, systemic emergence (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/game_designer.txt) |
+| 🤖 Game AI Designer | Intelligent NPC & procedural content design — behavior trees, utility AI, GOAP, director AI, LLM-powered dialogue, emergent gameplay, performance budgets (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/game_ai_designer.txt) |
 
 ### Translation
 
@@ -533,6 +536,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | **Anthropic** | [Scaling Managed Agents: Decoupling Brain from Hands](https://www.anthropic.com/engineering/managed-agents) (Apr 2026) | Agent Architecture |
 | **Anthropic** | [Claude Code Auto Mode: A Safer Way to Skip Permissions](https://www.anthropic.com/engineering/claude-code-auto-mode) (Mar 2026) | Agentic Coding / Safety — two-layer model-based classifier for read vs write approvals |
 | **Anthropic** | [Trustworthy agents in practice](https://www.anthropic.com/research/trustworthy-agents) (Apr 9, 2026) | Agent Safety / Governance — human control, ambiguity handling, layered defenses, open standards |
+| **Anthropic** | [Responsible Scaling Policy](https://www.anthropic.com/responsible-scaling-policy) (Apr 2026) | AI Safety / Frontier Risk — ASL system, capability thresholds, distribution partner safety, proactive pause planning |
 | **OpenAI** | [GPT-5.4 Prompt Guidance](https://developers.openai.com/api/docs/guides/prompt-guidance) (Mar 2026) | Prompting — output contracts, tool persistence, reasoning effort tuning |
 | **OpenAI** | [GPT-5.2 Prompting Guide](https://cookbook.openai.com/examples/gpt-5/gpt-5-2_prompting_guide) (Dec 2025) | Prompting — enterprise/agentic workloads, structured reasoning, tool grounding |
 | **OpenAI** | [Codex-Max Prompting Guide](https://cookbook.openai.com/examples/gpt-5/gpt-5-1-codex-max_prompting_guide) (Feb 2026) | Agentic Coding — autonomy/persistence tuning, reasoning effort levels, phase parameter |
@@ -669,6 +673,13 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [Attack and Defense Landscape of Agentic AI (2026)](https://arxiv.org/abs/2603.11088) | Dawn Song (UC Berkeley) et al. — first complete security survey for agentic AI systems (LLM + external tools/components); establishes threat model covering full attack surface and defense mechanisms; USENIX Security 2026 | [PDF](papers/Attack_Defense_Landscape_Agentic_AI.pdf) |
 | [Architecting Secure AI Agents: System-Level Defenses Against Indirect Prompt Injection (March 2026)](https://arxiv.org/abs/2603.30016) | Greshake/Xiao/Suh et al. — security architecture paper arguing prompt injection must be handled at the system layer (permissioning, provenance, policy isolation), not by model alignment alone | [PDF](papers/Architecting_Secure_AI_Agents_Indirect_Prompt_Injection.pdf) |
 | [Parallax: Why AI Agents That Think Must Never Act (April 2026)](https://arxiv.org/abs/2604.12986) | Argues that prompt-based safety is architecturally insufficient for agents with execution capability; introduces Parallax, a plan-then-execute separation architecture with formal safety guarantees | [PDF](papers/Parallax_Why_AI_Agents_That_Think_Must_Never_Act.pdf) |
+| [Safety, Security, and Cognitive Risks in World Models (2026)](https://arxiv.org/abs/2604.01346) | Comprehensive threat model for world-model-equipped agents — adversarial attacks, goal misgeneralisation, deceptive alignment, automation bias; extends MITRE ATLAS and OWASP to world model stack | [PDF](papers/Safety_Security_Cognitive_Risks_World_Models.pdf) |
+
+### Medical & Health AI
+
+| Paper | Key Contribution |
+|-------|-----------------|
+| [Medical Reasoning with Large Language Models: A Systematic Review and Evaluation (April 2026)](https://arxiv.org/abs/2604.08559) | Comprehensive review of medical reasoning methods + MR-Bench (real-world hospital data); reveals large gap between exam-level performance and authentic clinical decision-making | [PDF](papers/Medical_Reasoning_LLM_Systematic_Review.pdf) |
 
 ### Context & Memory
 
