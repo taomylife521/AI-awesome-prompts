@@ -160,6 +160,7 @@ All prompts are open — click, copy, use directly.
 | Name | Description | Prompt |
 |------|-------------|--------|
 | 🏃 Scrum Master | Certified Scrum Master — sprint ceremonies, impediment removal, team coaching, velocity tracking, retrospectives, scaling (SAFe/LeSS/Nexus) (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/scrum_master.txt) |
+| 🚨 Project Recovery Specialist | Crisis project turnaround — root cause diagnosis, stakeholder realignment, scope reclamation, team rehabilitation, 30-60-90 day recovery plans (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Project_Recovery_Specialist.txt) |
 
 ### Healthcare & Clinical
 
@@ -269,6 +270,7 @@ All prompts are open — click, copy, use directly.
 |------|-------------|--------|
 | 🧛 Vampire: The Masquerade | Deep lore expert for Vampire: The Masquerade tabletop RPG | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Vampire%20The%20Masquerade%20Lore%20Expert.md) |
 | 💘 Beauty D&D | Text adventure romance simulator with DALL-E image generation (Chinese) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Beauty_DND.txt) |
+| 🎭 Immersive Narrative Designer | Interactive story & worldbuilding — branching narratives, AI co-authorship, character psychology, emergent storytelling, VR/transmedia integration (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Immersive_Narrative_Designer.txt) |
 
 ### Game Development
 
@@ -282,6 +284,7 @@ All prompts are open — click, copy, use directly.
 | Name | Description | Prompt |
 |------|-------------|--------|
 | 📄 PDF Translator | Translates PDF documents page by page, or plain text — multi-language | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/pdf_translator.txt) |
+| 🌍 Localization & Globalization Strategist | Global market expansion — i18n architecture, AI translation pipelines, cultural adaptation, regulatory compliance, transcreation, continuous localization (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Localization_Globalization_Strategist.txt) |
 
 ### Legacy (2023 era — kept for reference)
 
@@ -684,6 +687,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | Paper | Key Contribution |
 |-------|-----------------|
 | [Medical Reasoning with Large Language Models: A Systematic Review and Evaluation (April 2026)](https://arxiv.org/abs/2604.08559) | Comprehensive review of medical reasoning methods + MR-Bench (real-world hospital data); reveals large gap between exam-level performance and authentic clinical decision-making | [PDF](papers/Medical_Reasoning_LLM_Systematic_Review.pdf) |
+| [VeriSim: Evaluating Medical AI Under Realistic Patient Noise (April 2026)](https://arxiv.org/abs/2604.10441) | Truth-preserving patient simulation framework injecting controllable, clinically evidence-grounded noise — evaluates medical AI robustness under realistic imperfect patient data conditions | [PDF](papers/VeriSim_Medical_AI_Realistic_Patient_Noise.pdf) |
 
 ### Context & Memory
 
@@ -724,6 +728,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [LiveClawBench: Benchmarking LLM Agents on Complex, Real-World Assistant Tasks (April 2026)](https://arxiv.org/abs/2604.13072) | Evaluates agents on compositional, real-world assistant tasks requiring planning, tool use, and recovery — closer to production deployment scenarios than static QA benchmarks | [PDF](papers/LiveClawBench_Real_World_Assistant_Tasks.pdf) |
 | [RiskWebWorld: GUI Agents in E-commerce Risk Management (April 2026)](https://arxiv.org/abs/2604.13531) | Realistic interactive benchmark for GUI agents in high-stakes professional workflows — 100 real-world e-commerce risk scenarios testing sequential decision-making under uncertainty | [PDF](papers/RiskWebWorld_GUI_Agents_Ecommerce.pdf) |
 | [OccuBench: Real-World Professional Tasks via Language World Models (April 2026)](https://arxiv.org/abs/2604.10866) | 100 professional task scenarios across 10 industries and 65 domains — evaluates AI agents on realistic occupational workflows using language world models for environment simulation | [PDF](papers/OccuBench_Real_World_Professional_Tasks.pdf) |
+| [EpiBench: Multi-turn Research Workflows for Multimodal Agents (April 2026)](https://arxiv.org/abs/2604.05557) | Benchmarks multimodal agents on episodic scientific research workflows — literature search, figure extraction, cross-paper synthesis; built on smolagents with persistent memory and tool use | [PDF](papers/EpiBench_Multimodal_Agent_Research_Workflows.pdf) |
 
 ### Instruction Following
 
@@ -745,6 +750,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | Paper | Key Contribution |
 |-------|-----------------|
 | [VLA-World: Vision-Language-Action World Models for Autonomous Driving (April 2026)](https://arxiv.org/abs/2604.09059) | Unifies predictive imagination with reflective reasoning for driving foresight — action-derived trajectory guides next-frame generation, then reasons over the imagined frame to refine planning | [PDF](papers/VLA_World_Vision_Language_Action_World_Models.pdf) |
+| [EmbodiedClaw: Conversational Workflow Execution for Embodied AI Development (April 2026)](https://arxiv.org/abs/2604.13800) | Conversational framework for embodied AI development — batch simulation environment synthesis, automatic scene creation, controllable scene editing, and workflow execution via natural language | [PDF](papers/EmbodiedClaw_Conversational_Workflow_Embodied_AI.pdf) |
 
 ### Voice & Realtime Agents
 
