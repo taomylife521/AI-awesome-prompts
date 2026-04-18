@@ -123,6 +123,7 @@ All prompts are open — click, copy, use directly.
 |------|-------------|--------|
 | 🔧 Data Engineer | Data pipeline specialist — Medallion Architecture (Bronze/Silver/Gold), PySpark + Delta Lake, dbt contracts, Great Expectations, Kafka streaming (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/data_engineer.md) |
 | 📈 Analytics Engineer | Production data infrastructure — dimensional modeling, dbt, pipeline architecture, data quality testing, metrics definition (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/analytics_engineer.txt) |
+| 🗄 Data Platform Architect | Enterprise data platform design — lakehouse architecture, data mesh, real-time streaming, AI/ML pipelines, governance, multi-cloud cost optimization (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Data_Platform_Architect.txt) |
 
 ### AI & ML
 
@@ -179,6 +180,7 @@ All prompts are open — click, copy, use directly.
 | Name | Description | Prompt |
 |------|-------------|--------|
 | 📚 Knowledge Management Architect | Enterprise knowledge systems — information architecture, documentation standards, AI-powered search, RAG, discoverability, governance, maintenance (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/knowledge_management_architect.txt) |
+| 📝 Technical Documentation Strategist | Comprehensive docs strategy — docs-as-code, AI-assisted writing, information architecture, developer experience, quality assurance, knowledge management integration (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Technical_Documentation_Strategist.txt) |
 
 ### Writing & Academic
 
@@ -259,6 +261,7 @@ All prompts are open — click, copy, use directly.
 | 🖼 Flux Image Gen | Full guide + template for Flux prompting — camera/lens/lighting/style system (2025) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/flux_image_gen.txt) |
 | 🎬 Video Generation Guide | Multi-model video prompting — Sora 2, Runway Gen 4.5, Kling 2.6, Veo 3; shot vocab, camera moves, model-specific patterns (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/video_gen_prompting.txt) |
 | 🎨 Meta MJ | Midjourney prompt generator — token vectors, weighting, interactive optimization | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Meta%20MJ.md) |
+| 🧊 3D Generative Artist | AI-driven 3D content creation — NeRF, Gaussian Splatting, diffusion-based 3D generation, mesh optimization, PBR texturing, real-time rendering pipeline (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/3D_Generative_Artist.txt) |
 
 ### Creative & Role-play
 
@@ -604,6 +607,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [Rethinking Generalization in Reasoning SFT (April 2026)](https://arxiv.org/abs/2604.06628) | Challenges "SFT memorizes, RL generalizes" — reasoning SFT with long CoT does generalize cross-domain, conditional on optimization dynamics; discovers safety-reasoning tradeoff (reasoning improves but safety degrades); 152 HF likes | [PDF](papers/Rethinking_Generalization_Reasoning_SFT.pdf) |
 | [RAGEN-2: Reasoning Collapse in Agentic RL (April 2026)](https://arxiv.org/abs/2604.06268) | Identifies "template collapse" in agentic RL — models rely on fixed input-agnostic templates despite stable entropy; proposes mutual information (not entropy) as diagnostic for reasoning quality; Northwestern/Stanford/Microsoft; 49 HF likes | [PDF](papers/RAGEN2_Reasoning_Collapse_Agentic_RL.pdf) |
 | [Optimality of LLMs on Planning Problems (April 2026)](https://arxiv.org/abs/2604.02910) | Google DeepMind: first systematic study of whether LLMs produce *optimal* plans (not just valid); reasoning-enhanced LLMs significantly outperform classical satisficing planners (LAMA) in complex multi-goal configurations | [PDF](papers/LLM_Optimality_Planning_Problems.pdf) |
+| [Stratified Scaling Search for Test-Time in Diffusion Language Models (April 2026)](https://arxiv.org/abs/2604.06260) | S³: inference-time procedure maintaining a population of partial denoising trajectories with verifier-based look-ahead and reward-tilted Gibbs distribution — first principled test-time scaling for discrete masked diffusion LMs | [PDF](papers/Stratified_Scaling_Search_Diffusion_LMs.pdf) |
 
 ### Surveys
 
@@ -718,6 +722,8 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [LongCLI-Bench: A Benchmark for Long-Horizon Agentic Programming in the CLI (2026)](https://arxiv.org/abs/2602.14337) | Benchmarks terminal-based coding agents on long-horizon programming tasks that require sustained planning, repo navigation, debugging, and recovery over many steps instead of single-fix patches | [PDF](papers/LongCLI_Bench_Long_Horizon_Agentic_Programming_CLI.pdf) |
 | [ProjDevBench: Benchmarking AI Agents on End-to-End Software Project Development (2026)](https://arxiv.org/abs/2602.01655) | Evaluates whether agents can build complete software projects from requirements to implementation and validation, rather than solving isolated bug-fix tasks; targets end-to-end project delivery realism | [PDF](papers/ProjDevBench_End_to_End_Project_Development.pdf) |
 | [LiveClawBench: Benchmarking LLM Agents on Complex, Real-World Assistant Tasks (April 2026)](https://arxiv.org/abs/2604.13072) | Evaluates agents on compositional, real-world assistant tasks requiring planning, tool use, and recovery — closer to production deployment scenarios than static QA benchmarks | [PDF](papers/LiveClawBench_Real_World_Assistant_Tasks.pdf) |
+| [RiskWebWorld: GUI Agents in E-commerce Risk Management (April 2026)](https://arxiv.org/abs/2604.13531) | Realistic interactive benchmark for GUI agents in high-stakes professional workflows — 100 real-world e-commerce risk scenarios testing sequential decision-making under uncertainty | [PDF](papers/RiskWebWorld_GUI_Agents_Ecommerce.pdf) |
+| [OccuBench: Real-World Professional Tasks via Language World Models (April 2026)](https://arxiv.org/abs/2604.10866) | 100 professional task scenarios across 10 industries and 65 domains — evaluates AI agents on realistic occupational workflows using language world models for environment simulation | [PDF](papers/OccuBench_Real_World_Professional_Tasks.pdf) |
 
 ### Instruction Following
 
