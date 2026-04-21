@@ -182,6 +182,7 @@ All prompts are open — click, copy, use directly.
 | ⚖️ Legal Analyst | Comprehensive legal research and contract analysis — IRAC methodology, regulatory compliance, litigation risk, IP strategy, M&A due diligence (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/legal_analyst.txt) |
 | 🔒 Compliance Auditor | SOC 2, ISO 27001, HIPAA, PCI-DSS — gap assessment, evidence collection automation, policy templates, audit preparation, continuous compliance (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/compliance_auditor.txt) |
 | 📋 Regulatory Affairs Specialist | Global regulatory strategy — FDA/EMA/NMPA pathways, QMS design, submission preparation, gap analysis, post-market surveillance, AI/ML compliance (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Regulatory_Affairs_Specialist.txt) |
+| ⚖️ Contract Negotiation Strategist | Complex deal negotiation — contract architecture, risk allocation, BATNA/ZOPA analysis, concession planning, cultural negotiation, AI-assisted contract analysis, M&A and licensing (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Contract_Negotiation_Strategist.txt) |
 
 ### Knowledge & Documentation
 
@@ -190,6 +191,7 @@ All prompts are open — click, copy, use directly.
 | 📚 Knowledge Management Architect | Enterprise knowledge systems — information architecture, documentation standards, AI-powered search, RAG, discoverability, governance, maintenance (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/knowledge_management_architect.txt) |
 | 📝 Technical Documentation Strategist | Comprehensive docs strategy — docs-as-code, AI-assisted writing, information architecture, developer experience, quality assurance, knowledge management integration (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Technical_Documentation_Strategist.txt) |
 | 🧠 Personal Knowledge Assistant | PKM system design — Zettelkasten, BASB, spaced repetition, AI reading assistants, semantic note-taking, knowledge synthesis, creativity pipelines (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Personal_Knowledge_Assistant.txt) |
+| 🗄 Knowledge Base Architect | Enterprise knowledge systems design — taxonomy, ontology, information architecture, semantic search, knowledge graphs, AI-augmented curation, content lifecycle governance (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Knowledge_Base_Architect.txt) |
 
 ### Writing & Academic
 
@@ -292,6 +294,7 @@ All prompts are open — click, copy, use directly.
 | 🎮 Game Designer | Senior systems & mechanics designer — GDD authorship, core gameplay loops, economy balancing (Monte Carlo), player onboarding, behavioral economics, systemic emergence (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/game_designer.txt) |
 | 🤖 Game AI Designer | Intelligent NPC & procedural content design — behavior trees, utility AI, GOAP, director AI, LLM-powered dialogue, emergent gameplay, performance budgets (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/game_ai_designer.txt) |
 | 🏗 Game Level Designer | Spatial game design — layout topology, encounter choreography, difficulty curves, environmental storytelling, navigation, multiplayer arenas, AI-assisted iteration (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Game_Level_Designer.txt) |
+| 💰 Game Economy Designer | Virtual economy design — currency architecture, progression systems, monetization psychology, scarcity mechanics, live ops balancing, player segmentation, inflation control, Monte Carlo simulation (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Game_Economy_Designer.txt) |
 
 ### Translation
 
@@ -658,6 +661,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [Why Do Web Agents Fail? A Hierarchical Planning Perspective (2026)](https://arxiv.org/abs/2603.14248) | Decomposes web agent behavior into high-level planning, low-level grounding, and replanning — PDDL-structured plans outperform NL plans but grounding remains the dominant bottleneck; a single round of exploratory replanning substantially improves task success | [PDF](papers/Web_Agents_Hierarchical_Planning.pdf) |
 | [Claw-Eval: Trustworthy Evaluation of Autonomous Agents (April 2026)](https://arxiv.org/abs/2604.06132) | End-to-end evaluation suite with 300 human-verified tasks across 9 categories — trajectory-aware grading over 2,159 rubric items; finds vanilla LLM judges miss 44% of safety violations and 13% of robustness failures | [PDF](papers/ClawEval_Trustworthy_Evaluation_Agents.pdf) |
 | [TimeSeek: Temporal Reliability of Agentic Forecasters (April 2026)](https://arxiv.org/abs/2604.04220) | Benchmark built from 150 regulated prediction markets evaluated at 5 lifecycle checkpoints — models are most competitive early and on high-uncertainty markets; search improves pooled accuracy but degrades 12% of conditions | [PDF](papers/TimeSeek_Temporal_Reliability_Forecasters.pdf) |
+| [ReliabilityBench: Evaluating LLM Agent Reliability Under Production-Like Stress (2026)](https://arxiv.org/abs/2601.06112) | 3D reliability surface R(k,ε,λ) unifying consistency, robustness, fault tolerance — chaos engineering for agents; ReAct outperforms Reflexion under stress; pass@1 overestimates reliability by 20–40% | [PDF](papers/ReliabilityBench_Agent_Reliability.pdf) |
 
 ### Multi-Agent Coordination
 
@@ -772,6 +776,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [Agentic-MME: What Agentic Capability Really Brings to Multimodal Intelligence? (April 2026)](https://arxiv.org/abs/2604.03016) | Systematic evaluation of agentic capability in multimodal LLMs — decomposes tasks into perception, reasoning, and action levels; reveals where agentic loops help vs. where they add overhead | [PDF](papers/Agentic_MME_Multimodal_Intelligence.pdf) |
 | [FeynmanBench: Diagrammatic Physics Reasoning for MLLMs (April 2026)](https://arxiv.org/abs/2604.03893) | First benchmark for Feynman diagram tasks — evaluates multistep diagrammatic reasoning requiring conservation laws, symmetry constraints, and graph topology; 2000+ tasks across Standard Model interactions | [PDF](papers/FeynmanBench_Multimodal_Physics_Reasoning.pdf) |
 | [MERRIN: Multimodal Evidence Retrieval in Noisy Web Environments (April 2026)](https://arxiv.org/abs/2604.13418) | Benchmark for multimodal evidence retrieval and multi-hop reasoning over noisy web content — even strongest agent (Gemini-3.1-Pro) achieves only 40.1%; finds more search ≠ better performance | [PDF](papers/MERRIN_Multimodal_Evidence_Retrieval_Web.pdf) |
+| [Zooming without Zooming: Region-to-Image Distillation for Fine-Grained Multimodal Perception (2026)](https://arxiv.org/abs/2602.11858) | Converts inference-time zooming into training-time primitive — teaches MLLMs fine-grained perception in single forward pass; introduces ZoomBench (845 VQA across 6 perceptual dimensions); SOTA on fine-grained benchmarks | [PDF](papers/Zooming_Without_Zooming_Multimodal.pdf) |
 
 ### Embodied AI & World Models
 
@@ -781,6 +786,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [EmbodiedClaw: Conversational Workflow Execution for Embodied AI Development (April 2026)](https://arxiv.org/abs/2604.13800) | Conversational framework for embodied AI development — batch simulation environment synthesis, automatic scene creation, controllable scene editing, and workflow execution via natural language | [PDF](papers/EmbodiedClaw_Conversational_Workflow_Embodied_AI.pdf) |
 | [StarVLA: Lego-like Codebase for VLA Model Development (April 2026)](https://arxiv.org/abs/2604.05014) | Open-source modular VLA framework — swappable backbone (VLM/world-model) and action heads, cross-embodiment learning, unified evaluation across LIBERO, SimplerEnv, RoboTwin, RoboCasa, BEHAVIOR-1K | [PDF](papers/StarVLA_Vision_Language_Action_Codebase.pdf) |
 | [Human-to-Robot Imitation Learning: A Survey and Taxonomy of Methods (April 2026)](https://arxiv.org/abs/2604.08995) | Comprehensive survey of human-to-robot imitation learning — behavioral cloning, inverse reinforcement learning, adversarial imitation, and their combinations; includes taxonomy, benchmarks, and open challenges | [PDF](papers/Human_to_Robot_Imitation_Learning.pdf) |
+| [The Great March 100: 100 Detail-oriented Tasks for Evaluating Embodied AI Agents (2026)](https://arxiv.org/abs/2601.11421) | 100 detail-oriented embodied AI tasks spanning manipulation, navigation, and reasoning — evaluates fine-grained physical world understanding beyond coarse task completion | [PDF](papers/Great_March_100_Embodied_AI_Agents.pdf) |
 
 ### Voice & Realtime Agents
 
