@@ -124,6 +124,7 @@ All prompts are open — click, copy, use directly.
 | 🔧 Data Engineer | Data pipeline specialist — Medallion Architecture (Bronze/Silver/Gold), PySpark + Delta Lake, dbt contracts, Great Expectations, Kafka streaming (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/data_engineer.md) |
 | 📈 Analytics Engineer | Production data infrastructure — dimensional modeling, dbt, pipeline architecture, data quality testing, metrics definition (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/analytics_engineer.txt) |
 | 🗄 Data Platform Architect | Enterprise data platform design — lakehouse architecture, data mesh, real-time streaming, AI/ML pipelines, governance, multi-cloud cost optimization (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Data_Platform_Architect.txt) |
+| 📊 Data Governance Architect | Enterprise data governance — policy frameworks, stewardship models, data catalogs, lineage tracking, privacy compliance, AI data standards (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Data_Governance_Architect.txt) |
 
 ### AI & ML
 
@@ -206,6 +207,7 @@ All prompts are open — click, copy, use directly.
 | 📗 All-around Teacher | Adaptive tutor — explains anything in 3 minutes, customized to your level | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/%F0%9F%93%97All-around%20Teacher.md) |
 | 🚀 LearnOS PRO | Interactive learning assistant with dynamic, personalized explanations | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/LearnOS_PRO.txt) |
 | 🏛 Socratic Tutor | Guides students to understanding through questions, not answers — works for any subject (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/socratic_tutor.txt) |
+| 🧠 Adaptive Learning Designer | AI-driven personalized education — knowledge tracing, spaced repetition, intelligent tutoring, learning analytics, engagement design, ethical safeguards (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Adaptive_Learning_Designer.txt) |
 
 ### Research & Analysis
 
@@ -270,6 +272,7 @@ All prompts are open — click, copy, use directly.
 | 🎬 Video Generation Guide | Multi-model video prompting — Sora 2, Runway Gen 4.5, Kling 2.6, Veo 3; shot vocab, camera moves, model-specific patterns (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/video_gen_prompting.txt) |
 | 🎨 Meta MJ | Midjourney prompt generator — token vectors, weighting, interactive optimization | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Meta%20MJ.md) |
 | 🧊 3D Generative Artist | AI-driven 3D content creation — NeRF, Gaussian Splatting, diffusion-based 3D generation, mesh optimization, PBR texturing, real-time rendering pipeline (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/3D_Generative_Artist.txt) |
+| 🎥 Cinematography Prompt Engineer | Cinematic AI video generation — shot vocabulary, camera movement, lighting design, color grading, lens optics, narrative continuity, model-specific syntax (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Cinematography_Prompt_Engineer.txt) |
 
 ### Creative & Role-play
 
@@ -629,6 +632,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [Externalization in LLM Agents: Memory, Skills, Protocols, Harness (April 2026)](https://arxiv.org/abs/2604.08224) | Comprehensive survey unifying memory, skills, protocols, and harness engineering as four forms of "cognitive externalization" — traces progression from weights → context → harness using cognitive artifact theory; Shanghai Jiao Tong / UCL | [PDF](papers/Externalization_LLM_Agents_Unified_Review.pdf) |
 | [Beyond the Parameters: ICL to Causal RAG (April 2026)](https://arxiv.org/abs/2604.03174) | Comprehensive survey treating context enrichment as a continuum — from in-context learning through RAG, GraphRAG, to CausalRAG; includes claim-audit framework and cross-paper evidence synthesis | [PDF](papers/Beyond_Parameters_ICL_to_RAG_Survey.pdf) |
 | [Credit Assignment in Reinforcement Learning for Large Language Models (April 2026)](https://arxiv.org/abs/2604.09459) | Comprehensive survey of credit assignment methods for LLM RL (reasoning + agentic) — covers 47 papers from Jan 2024 to Apr 2026; traces shift from reasoning-focused to agentic/multi-agent CA methods | [PDF](papers/Credit_Assignment_RL_for_Large_Language_Models.pdf) |
+| [Secure RAG: A Taxonomy of Attacks, Defenses, and Future Directions (April 2026)](https://arxiv.org/abs/2604.05794) | Comprehensive taxonomy of RAG security — poisoning, extraction, membership inference, jailbreaks, and privacy leakage attacks with corresponding defense strategies and future research directions | [PDF](papers/Secure_RAG_Taxonomy.pdf) |
 
 ### RAG & Knowledge
 
@@ -700,6 +704,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [Medical Reasoning with Large Language Models: A Systematic Review and Evaluation (April 2026)](https://arxiv.org/abs/2604.08559) | Comprehensive review of medical reasoning methods + MR-Bench (real-world hospital data); reveals large gap between exam-level performance and authentic clinical decision-making | [PDF](papers/Medical_Reasoning_LLM_Systematic_Review.pdf) |
 | [VeriSim: Evaluating Medical AI Under Realistic Patient Noise (April 2026)](https://arxiv.org/abs/2604.10441) | Truth-preserving patient simulation framework injecting controllable, clinically evidence-grounded noise — evaluates medical AI robustness under realistic imperfect patient data conditions | [PDF](papers/VeriSim_Medical_AI_Realistic_Patient_Noise.pdf) |
 | [Med-CAM: Minimal Evidence for Explaining Medical Decision Making (April 2026)](https://arxiv.org/abs/2604.13695) | Minimal evidence extraction for medical AI explanations — identifies the smallest subset of input features sufficient for model decisions, improving interpretability without performance loss | [PDF](papers/MedCAM_Medical_Decision_Explanation.pdf) |
+| [ProMedical: Hierarchical Fine-Grained Criteria Modeling for Medical LLM Alignment (April 2026)](https://arxiv.org/abs/2604.07487) | Hierarchical fine-grained criteria modeling for medical LLM alignment — structured clinical evaluation rubrics with multi-level criteria decomposition for improved medical reasoning and safety | [PDF](papers/ProMedical_Medical_LLM_Alignment.pdf) |
 
 ### Context & Memory
 
@@ -769,6 +774,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [VLA-World: Vision-Language-Action World Models for Autonomous Driving (April 2026)](https://arxiv.org/abs/2604.09059) | Unifies predictive imagination with reflective reasoning for driving foresight — action-derived trajectory guides next-frame generation, then reasons over the imagined frame to refine planning | [PDF](papers/VLA_World_Vision_Language_Action_World_Models.pdf) |
 | [EmbodiedClaw: Conversational Workflow Execution for Embodied AI Development (April 2026)](https://arxiv.org/abs/2604.13800) | Conversational framework for embodied AI development — batch simulation environment synthesis, automatic scene creation, controllable scene editing, and workflow execution via natural language | [PDF](papers/EmbodiedClaw_Conversational_Workflow_Embodied_AI.pdf) |
 | [StarVLA: Lego-like Codebase for VLA Model Development (April 2026)](https://arxiv.org/abs/2604.05014) | Open-source modular VLA framework — swappable backbone (VLM/world-model) and action heads, cross-embodiment learning, unified evaluation across LIBERO, SimplerEnv, RoboTwin, RoboCasa, BEHAVIOR-1K | [PDF](papers/StarVLA_Vision_Language_Action_Codebase.pdf) |
+| [Human-to-Robot Imitation Learning: A Survey and Taxonomy of Methods (April 2026)](https://arxiv.org/abs/2604.08995) | Comprehensive survey of human-to-robot imitation learning — behavioral cloning, inverse reinforcement learning, adversarial imitation, and their combinations; includes taxonomy, benchmarks, and open challenges | [PDF](papers/Human_to_Robot_Imitation_Learning.pdf) |
 
 ### Voice & Realtime Agents
 
