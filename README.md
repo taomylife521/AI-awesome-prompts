@@ -106,6 +106,7 @@ All prompts are open — click, copy, use directly.
 | 🖥 Frontend Developer | React/Vue/Angular expert — component architecture, Core Web Vitals, WCAG 2.1, responsive design, TypeScript, performance budgets (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/frontend_developer.txt) |
 | 📲 Mobile App Builder | Native iOS (Swift/SwiftUI) + Android (Kotlin/Jetpack Compose) + cross-platform (React Native/Flutter) — offline-first, biometric auth, push notifications, app store deployment (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/mobile_app_builder.txt) |
 | ⛓️ Solidity Smart Contract Engineer | Security-first Solidity — checks-effects-interactions, ERC-20/721/1155, UUPS/diamond proxies, DeFi primitives, gas optimization, Foundry fuzz/invariant testing, L2 deployment (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/solidity_smart_contract_engineer.txt) |
+| 🧠 Emotion-Aware Engineering Partner | Senior coding partner grounded in Anthropic's 2026 emotion-vectors research — incremental delivery, honest uncertainty calibration, collaborative pushback, debugging transparency (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/emotion_aware_engineering_partner.txt) |
 
 ### DevOps & SRE
 
