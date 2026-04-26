@@ -140,6 +140,7 @@ All prompts are open — click, copy, use directly.
 | 🎨 Multimodal Agent Designer | Cross-modal agent architecture — active perception, visual/audio grounding, token-efficient context management, modality-aware tool design, GUI automation (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/multimodal_agent_designer.txt) |
 | ⚖️ AI Ethics Reviewer | Algorithmic ethics audit — fairness & bias, transparency, privacy, safety, accountability, societal impact, cross-cultural considerations, mitigation roadmap (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/AI_Ethics_Reviewer.txt) |
 | 🤖 MLOps Engineer | ML operations platform — feature stores, model registries, training pipelines, serving infrastructure, drift monitoring, experiment tracking, GPU optimization, LLM deployment (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/MLOps_Engineer.txt) |
+| 🦾 Embodied AI Developer | VLA systems, robotic agents, world-model-driven embodied intelligence — perception-action grounding, sim-to-real pipelines, cross-embodiment transfer, skill primitives, physical safety gates; derived from 2026 embodied-AI research (StarVLA, EmbodiedClaw, VLA-World) (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/embodied_ai_developer.txt) |
 
 ### Product & Strategy
 
