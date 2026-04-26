@@ -276,6 +276,7 @@ All prompts are open — click, copy, use directly.
 | 🔌 MCP Server Architect | Prompt for designing secure, interoperable Model Context Protocol servers — flat schemas, error contracts, transport guidance, testing strategy (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/mcp_server_architect.txt) |
 | 🧬 Skill Self-Evolution Designer | Agent-designing-agent prompt for creating reusable, self-evaluating skills — Read-Execute-Reflect-Write loop, SKILL.md scaffolding, versioned skill libraries (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/skill_self_evolution_designer.txt) |
 | ⚡ Test-Time Compute Scaling Strategist | Inference-time compute allocation specialist — deep-thinking token budgets, early-exit probes, reasoning depth calibration, cost-latency-accuracy trade-offs, parallel verification, diffusion-LM scaling; based on 2026 reasoning and test-time scaling research (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/test_time_compute_scaling_strategist.txt) |
+| 🧠 Meta-Cognitive Tool Use Specialist | Prompt for deciding *whether* to invoke a tool — self-knowledge probing, cost-benefit gating, confidence calibration, tool-budget tracking, redundant-call detection; addresses the meta-cognitive deficit where naive agents over-tool 98% of the time; based on Alibaba's "Act Wisely" / HDPO research (April 2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/meta_cognitive_tool_use_specialist.txt) |
 
 ### Image & Video Generation
 
