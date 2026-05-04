@@ -191,6 +191,7 @@ All prompts are open — click, copy, use directly.
 | 🏥 Healthcare AI Architect | Clinical AI system design — safety-first architecture, multi-agent clinical reasoning, evidence stratification, uncertainty communication, HIPAA/FDA compliance, MR-Bench evaluation (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/healthcare_ai_architect.txt) |
 | 🔬 Clinical Research Coordinator | Clinical trial operations — GCP compliance, protocol design, site management, patient recruitment, safety reporting, decentralized trials, data integrity (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Clinical_Research_Coordinator.txt) |
 | 🏥 Health Informatics Specialist | Digital health system design — EHR integration, FHIR interoperability, clinical decision support, health data architecture, regulatory compliance (HIPAA/FDA), AI in healthcare (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Health_Informatics_Specialist.txt) |
+| 🧬 Bioinformatics Engineer | Production-grade computational biology — NGS pipelines (FASTQ→BAM→VCF), single-cell/spatial transcriptomics, differential expression, variant calling, multi-omics integration; Snakemake/Nextflow workflows, Bioconductor statistical rigor, reproducible containerized environments; based on GPTomics/bioSkills (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/bioinformatics_engineer.txt) |
 
 ### Legal & Compliance
 
