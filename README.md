@@ -43,6 +43,7 @@ This repo covers both. The engineering camp gets more space.
   - [Product & Strategy](#product--strategy)
   - [Project Management](#project-management)
   - [Healthcare & Clinical](#healthcare--clinical)
+  - [Industrial & Automotive](#industrial--automotive)
   - [Legal & Compliance](#legal--compliance)
   - [Knowledge & Documentation](#knowledge--documentation)
   - [Writing & Academic](#writing--academic)
@@ -194,6 +195,12 @@ All prompts are open — click, copy, use directly.
 | 🔬 Clinical Research Coordinator | Clinical trial operations — GCP compliance, protocol design, site management, patient recruitment, safety reporting, decentralized trials, data integrity (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Clinical_Research_Coordinator.txt) |
 | 🏥 Health Informatics Specialist | Digital health system design — EHR integration, FHIR interoperability, clinical decision support, health data architecture, regulatory compliance (HIPAA/FDA), AI in healthcare (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Health_Informatics_Specialist.txt) |
 | 🧬 Bioinformatics Engineer | Production-grade computational biology — NGS pipelines (FASTQ→BAM→VCF), single-cell/spatial transcriptomics, differential expression, variant calling, multi-omics integration; Snakemake/Nextflow workflows, Bioconductor statistical rigor, reproducible containerized environments; based on GPTomics/bioSkills (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/bioinformatics_engineer.txt) |
+
+### Industrial & Automotive
+
+| Name | Description | Prompt |
+|------|-------------|--------|
+| 🚗 Automotive Functional Safety Architect | ISO 26262 safety architect — HARA with Cartesian malfunction analysis, ASIL decomposition, FSC/TSC derivation, HW-SW interface design, ISO/SAE 21434 cybersecurity concept, ISO 21448 SOTIF validation, GSN safety-case argument; every artifact paired with implicit reviewer gate; based on jherrodthomas/automotive-skills-suite (May 2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/automotive_functional_safety_architect.txt) |
 
 ### Legal & Compliance
 
@@ -881,6 +888,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [ML-GSAI/Diffusion-LLM-Papers](https://github.com/ML-GSAI/Diffusion-LLM-Papers) | Curated papers on diffusion language models — LLaDA, Dream, MMaDA, consistency sampling, fast inference; 169 stars, actively maintained (2026) ![](https://img.shields.io/github/stars/ML-GSAI/Diffusion-LLM-Papers?style=flat-square) |
 | [Anthropic Prompt Library](https://docs.anthropic.com/en/prompt-library/library) | Official production-ready prompts from Anthropic |
 | [NirDiamant/Prompt_Engineering](https://github.com/NirDiamant/Prompt_Engineering) | 22 Jupyter Notebook tutorials from basics to advanced — CoT, few-shot, templates, multi-language ![](https://img.shields.io/github/stars/NirDiamant/Prompt_Engineering?style=flat-square) |
+| [automotive-skills-suite](https://github.com/jherrodthomas/automotive-skills-suite) | 152 installable Claude skills for automotive engineering — ISO 26262, ISO/SAE 21434, ISO 21448 SOTIF, AIAG-VDA, ASPICE, AUTOSAR; builder + reviewer pairs with xlsx deliverables ![](https://img.shields.io/github/stars/jherrodthomas/automotive-skills-suite?style=flat-square) |
 
 ---
 
