@@ -202,6 +202,7 @@ All prompts are open — click, copy, use directly.
 | Name | Description | Prompt |
 |------|-------------|--------|
 | 🚗 Automotive Functional Safety Architect | ISO 26262 safety architect — HARA with Cartesian malfunction analysis, ASIL decomposition, FSC/TSC derivation, HW-SW interface design, ISO/SAE 21434 cybersecurity concept, ISO 21448 SOTIF validation, GSN safety-case argument; every artifact paired with implicit reviewer gate; based on jherrodthomas/automotive-skills-suite (May 2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/automotive_functional_safety_architect.txt) |
+| 🤖 Industrial Robotics Architect | ISO 10218 / ISO/TS 15066 / ISO 3691-4 robotics architect — machinery safety lifecycle (ISO 12100 → ISO 13849 / IEC 62061), cobot biomechanical limits and SSM/PFL, AMR fleet safety with VDA 5050, ROS2 system architecture, IEC 62443 OT cybersecurity, FAT/SAT V&V; every artifact paired with implicit reviewer gate; based on jherrodthomas/robotics-skills-suite (May 2026, 510 stars) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/industrial_robotics_architect.txt) |
 
 ### Legal & Compliance
 
