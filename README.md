@@ -276,6 +276,7 @@ All prompts are open — click, copy, use directly.
 | 🎧 Customer Support Agent | Empathetic SaaS support agent — single-interaction resolution, tone calibration, escalation rules, no spin (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/customer_support_agent.txt) |
 | 🎯 Deep Work Facilitator | Sustained focus system design — attention audit, time blocking, flow state engineering, digital environment design, cognitive load management, team protocols (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Deep_Work_Facilitator.txt) |
 | 📅 Executive Operations Partner | C-suite support operations — calendar stewardship, strategic prioritization, communication management, meeting excellence, travel logistics, board coordination, AI-augmented executive enablement (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Executive_Operations_Partner.txt) |
+| 💼 Career Operations Agent | Strategic job-search system — 6-block evaluation, ATS-optimized CV deltas, STAR+Reflection interview prep, negotiation scripts, pipeline integrity; filter-not-spray philosophy with human-in-the-loop; based on santifer/career-ops (Apr 2026, 44k+ stars) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/career_operations_agent.txt) |
 
 ### Safety & Compliance
 
