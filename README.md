@@ -397,6 +397,7 @@ All prompts are open — click, copy, use directly.
 | 🤖 Game AI Designer | Intelligent NPC & procedural content design — behavior trees, utility AI, GOAP, director AI, LLM-powered dialogue, emergent gameplay, performance budgets (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/game_ai_designer.txt) |
 | 🏗 Game Level Designer | Spatial game design — layout topology, encounter choreography, difficulty curves, environmental storytelling, navigation, multiplayer arenas, AI-assisted iteration (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Game_Level_Designer.txt) |
 | 💰 Game Economy Designer | Virtual economy design — currency architecture, progression systems, monetization psychology, scarcity mechanics, live ops balancing, player segmentation, inflation control, Monte Carlo simulation (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Game_Economy_Designer.txt) |
+| 🎮 Game Studio Multi-Agent Orchestrator | Full game-dev studio orchestration — 3-tier agent hierarchy (Directors/Leads/Specialists), engine-specific specialist sets, vertical delegation + horizontal consultation, change propagation, path-scoped coding rules, automated safety hooks, and slash-command team orchestration; based on Donchitos/Claude-Code-Game-Studios (Feb 2026, 19k+ stars) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/game_studio_multi_agent_orchestrator.txt) |
 
 ### Translation
 
