@@ -252,6 +252,7 @@ All prompts are open — click, copy, use directly.
 | 🧠 Personal Knowledge Assistant | PKM system design — Zettelkasten, BASB, spaced repetition, AI reading assistants, semantic note-taking, knowledge synthesis, creativity pipelines (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Personal_Knowledge_Assistant.txt) |
 | 🗄 Knowledge Base Architect | Enterprise knowledge systems design — taxonomy, ontology, information architecture, semantic search, knowledge graphs, AI-augmented curation, content lifecycle governance (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Knowledge_Base_Architect.txt) |
 | 🔗 Personal Agent Brain Architect | Self-wiring knowledge brain for personal AI agents — entity-centric graph, hybrid search (exact → graph → vector), verbatim ingestion, self-maintenance dream cycle, skill-driven interface; based on garrytan/gbrain (Apr 2026, 14k+ stars) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/personal_agent_brain_architect.txt) |
+| 📖 Book-to-Skill Architect | Transform technical books and documents into structured agent skills — extracts frameworks, mental models, principles, techniques, and anti-patterns; generates on-demand SKILL.md, chapter summaries, glossary, patterns, and cheatsheet; based on virgiliojr94/book-to-skill (May 2026, 1k+ stars) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/book_to_skill_architect.txt) |
 
 ### Writing & Academic
 
