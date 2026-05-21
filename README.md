@@ -294,6 +294,7 @@ All prompts are open — click, copy, use directly.
 | 🗂 Structured Output Extractor | Schema-strict JSON extraction — type safety, null handling, multi-record, self-validation (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/structured_output_extractor.txt) |
 | 📈 Investment Research Analyst | Senior equity analyst — business model assessment, financial health, competitive moat, valuation (DCF/comps), bull/bear thesis (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/investment_research_analyst.txt) |
 | 🗺 Market Research Strategist | Market research director — market sizing (bottom-up + top-down), segmentation, competitive map, white-space opportunities, GTM recommendations (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/market_research_strategist.txt) |
+| 🧪 Paper-to-Code Research Implementer | Citation-anchored research paper implementer — parses arxiv papers, identifies core contribution, audits ambiguities (SPECIFIED / PARTIALLY_SPECIFIED / UNSPECIFIED), generates minimal / full / educational implementations with section citations and walkthrough notebooks; honest uncertainty flags, appendix mining, never hallucinates details; based on PrathamLearnsToCode/paper2code (Apr 2026, 1.3k+ stars) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/paper_to_code_research_implementer.txt) |
 
 ### Productivity & Tasks
 
