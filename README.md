@@ -82,6 +82,7 @@ All prompts are open — click, copy, use directly.
 | Name | Description | Prompt |
 |------|-------------|--------|
 | 🤖 Agentic Coder | Plan-first coding agent — security checklist, test discipline, PR summary format (2025) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/agentic_coder.txt) |
+| 🧪 Prototype Architect | Throwaway-prototype skill — logic prototypes (interactive TUI for state machines) and UI prototypes (radically different variants on a single route with floating switcher); based on mattpocock/skills (Jan 2026, 117k+ stars) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/prototype_architect.txt) |
 | 🔍 Code Reviewer | Security-focused code reviewer — OWASP Top 10, severity grading, fix examples (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/code_reviewer_security.txt) |
 | 🕸 Multi-Agent Orchestrator | Central dispatch agent — task decomposition, parallel delegation, state tracking, error recovery (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/multi_agent_orchestrator.txt) |
 | 🧱 Agent Harness Designer | System prompt for designing reliable agent runtimes — tool minimization, approval gates, memory/compaction, rollback, observability, evals; derived from OpenAI/Anthropic harness guidance (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/agent_harness_designer.txt) |
